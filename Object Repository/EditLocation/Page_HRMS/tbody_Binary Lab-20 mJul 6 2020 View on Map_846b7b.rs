@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tbody_Binary Lab-20 mJul 6 2020 View on Map_846b7b</name>
+   <tag></tag>
+   <elementGuidId>e68279c9-065c-44b0-820f-e4f403c26357</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div/div[2]/div/div/div/table/tbody</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>tbody</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>rowgroup</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Binary Lab-20 mJul 6, 2020 View on Map     Edit Edit Company LocationNameAcceptable Range (in meters)Save   Delete My Location 6-20 mJul 6, 2020Jul 6, 2020 View on Map     Edit    Delete My Location 5-100 mJul 6, 2020Jul 6, 2020 View on Map     Edit    Delete My Location 4-1000 mJul 6, 2020Jul 6, 2020 View on Map     Edit    Delete My Location 3-1000 mJul 6, 2020Jul 6, 2020 View on Map     Edit    Delete My Location 2-0 mJul 6, 2020Jul 6, 2020 View on Map     Edit    Delete My Location-0 mJul 6, 2020Jul 6, 2020 View on Map     Edit    Delete Khing Store-100 mJul 5, 2020 View on Map     Edit    Delete Ahtar Oo-1000 mJul 5, 2020Jul 6, 2020 View on Map     Edit    Delete Orient Location-1000 mJul 5, 2020Jul 5, 2020 View on Map     Edit    Delete My Home Testing 3-1000 mJul 5, 2020Jul 6, 2020 View on Map     Edit    Delete My Home testing-20 mJul 5, 2020Jul 5, 2020 View on Map     Edit    Delete Location 6-100 mJul 5, 2020Jul 6, 2020 View on Map     Edit    Delete Location 5-200 mJul 5, 2020Jul 5, 2020 View on Map     Edit    Delete TestingLocation3942 employees10 mJul 4, 2020Jul 6, 2020 View on Map     Edit    Delete TestingLocation2-0 mJul 4, 2020Jul 6, 2020 View on Map     Edit    Delete TestingLocation1-20 mJul 4, 2020Jul 6, 2020 View on Map     Edit    Delete Saw Lin's test-5 mJul 6, 2020 View on Map     Edit    Delete </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-0&quot;)/div[@class=&quot;mat-tab-body-content ng-trigger ng-trigger-translateTab&quot;]/section[@class=&quot;content mt-3 ng-star-inserted&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;card mt-3&quot;]/div[@class=&quot;card-body p-0&quot;]/div[@class=&quot;table-responsive&quot;]/div[@class=&quot;location-container mat-elevation-z8&quot;]/table[@class=&quot;mat-table&quot;]/tbody[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-0']/div/section/div/div[2]/div/div/div/table/tbody</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated'])[1]/following::tbody[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Added'])[1]/following::tbody[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody</value>
+   </webElementXpaths>
+</WebElementEntity>
