@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/ManualTimeClockRequest/Page_HRMS/b
 
 WebUI.click(findTestObject('Object Repository/ManualTimeClockRequest/Page_HRMS/input'))
 
-WebUI.click(findTestObject('Object Repository/ManualTimeClockRequest/Page_HRMS/span_Binary Lab'))
+WebUI.click(findTestObject('ManualTimeClockRequest/Page_HRMS/span_Binary Lab'))
 
 WebUI.click(findTestObject('Object Repository/ManualTimeClockRequest/Page_HRMS/button_Save'))
 

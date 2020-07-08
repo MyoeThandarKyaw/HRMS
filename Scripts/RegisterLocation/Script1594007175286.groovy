@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/p_Co
 
 WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_New Location'))
 
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Location Name_locationName'), 'Talent Trader')
+WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Location Name_locationName'), 'Capita Pte Ltd - IT Perm')
 
 WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Latitude_latitude'), '16.802261')
 

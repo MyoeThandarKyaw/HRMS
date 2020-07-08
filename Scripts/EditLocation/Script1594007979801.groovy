@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/EditLocation/Page_HRMS/p_Company L
 
 WebUI.click(findTestObject('Object Repository/EditLocation/Page_HRMS/a_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/EditLocation/Page_HRMS/input_Edit Company Location_mat-input-6'), 'BinaryLab Office (YGN)')
+WebUI.setText(findTestObject('Object Repository/EditLocation/Page_HRMS/input_Edit Company Location_mat-input-6'), 'Talent Trader (YGN)')
 
 WebUI.delay(2)
 
