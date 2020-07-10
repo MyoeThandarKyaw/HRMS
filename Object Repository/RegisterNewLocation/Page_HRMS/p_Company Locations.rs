@@ -3,11 +3,11 @@
    <description></description>
    <name>p_Company Locations</name>
    <tag></tag>
-   <elementGuidId>875f34e1-2d86-4ef2-a6f1-acb5cbfdebbe</elementGuidId>
+   <elementGuidId>390563de-7394-4436-95ab-abb45c5caa84</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='MY COMPANY'])[1]/following::p[4]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='MY COMPANY'])[1]/following::p[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,21 +31,28 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/app-menu-sidebar[1]/aside[@class=&quot;main-sidebar sidebar-dark-primary elevation-4&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;mt-2&quot;]/ul[@class=&quot;nav nav-pills nav-sidebar flex-column&quot;]/li[@class=&quot;nav-item has-treeview ng-star-inserted menu-open&quot;]/ul[@class=&quot;nav nav-treeview ml-2&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]/p[1]</value>
+      <value>/html[1]/body[@class=&quot;sidebar-mini layout-fixed sidebar-open&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/app-menu-sidebar[1]/aside[@class=&quot;main-sidebar sidebar-dark-primary elevation-4&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;mt-2&quot;]/ul[@class=&quot;nav nav-pills nav-sidebar flex-column&quot;]/li[@class=&quot;nav-item has-treeview ng-star-inserted menu-open&quot;]/ul[@class=&quot;nav nav-treeview ml-2&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]/p[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MY COMPANY'])[1]/following::p[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MY COMPANY'])[1]/following::p[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ME'])[1]/following::p[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OTHER'])[1]/following::p[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SETTING'])[1]/preceding::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,13 +66,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[2]/preceding::p[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>//*/text()[normalize-space(.)='Company Locations']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -73,6 +73,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a/p</value>
+      <value>//li[9]/ul/li[2]/a/p</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Attendance</name>
+   <name>span_(All)_ng-arrow-wrapper</name>
    <tag></tag>
-   <elementGuidId>6644049d-3e69-40b3-9b1e-a883b0cb1051</elementGuidId>
+   <elementGuidId>f74e54e4-6cc5-42d0-83bc-b671e5cce72e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='MY COMPANY'])[1]/following::a[1]</value>
+         <value>//ng-select/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,76 +17,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-link</value>
+      <value>ng-arrow-wrapper</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> Attendance </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/app-menu-sidebar[1]/aside[@class=&quot;main-sidebar sidebar-dark-primary elevation-4&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;mt-2&quot;]/ul[@class=&quot;nav nav-pills nav-sidebar flex-column&quot;]/li[@class=&quot;nav-item has-treeview ng-star-inserted&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <value>id(&quot;ngb-popover-1371&quot;)/div[@class=&quot;popover-body&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;form-group&quot;]/ng-select[@class=&quot;ng-select ng-select-single ng-select-searchable ng-select-clearable ng-untouched ng-pristine ng-valid ng-select-focused ng-select-opened ng-select-top&quot;]/div[@class=&quot;ng-select-container&quot;]/span[@class=&quot;ng-arrow-wrapper&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MY COMPANY'])[1]/following::a[1]</value>
+      <value>//ngb-popover-window[@id='ngb-popover-1371']/div[2]/form/div/ng-select/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ME'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(All)'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::a[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Primary Location'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[2]/preceding::a[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JMC Talent Search Pte. Ltd.'])[4]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capita Pte Ltd - IT Perm'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a</value>
+      <value>//ng-select/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

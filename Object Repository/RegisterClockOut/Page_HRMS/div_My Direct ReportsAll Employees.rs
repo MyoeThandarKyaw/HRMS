@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='New Manual Time Clock'])[2]/following::div[3]</value>
+         <value>//input[@class=‘radio’]/following::span[text()=‘Radio 1’]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

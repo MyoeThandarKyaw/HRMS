@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_In_mat-radio-outer-circle</name>
+   <name>div_Display Options_mat-checkbox-inner-container</name>
    <tag></tag>
-   <elementGuidId>56796bc5-4411-43df-b675-539520dcf984</elementGuidId>
+   <elementGuidId>4f2da009-bb6d-4697-84c7-602e09439db0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@class=‘radio’]/following::span[text()=‘Out’]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>//input[@class=‘radio’]/following::span[text()=‘Out’]</value>
+         <value>//mat-checkbox[@id='false']/label/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,27 +24,34 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-radio-outer-circle</value>
+      <value>mat-checkbox-inner-container</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-radio-3&quot;)/label[@class=&quot;mat-radio-label&quot;]/div[@class=&quot;mat-radio-container&quot;]/div[@class=&quot;mat-radio-outer-circle&quot;]</value>
+      <value>id(&quot;false&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-radio-button[@id='mat-radio-3']/label/div/div</value>
+      <value>//mat-checkbox[@id='false']/label/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Display Options'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-radio-button[2]/label/div/div</value>
+      <value>//label/div</value>
    </webElementXpaths>
 </WebElementEntity>

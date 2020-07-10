@@ -6,16 +6,16 @@
    <elementGuidId>85042869-0150-483b-a6e6-25b3b6202f88</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>//*[@id=&quot;mat-radio-3-input&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>id(&quot;mat-radio-6&quot;)/label[@class=&quot;mat-radio-label&quot;]/div[@class=&quot;mat-radio-container&quot;]/div[@class=&quot;mat-radio-outer-circle&quot;][count(. | //div[@class = 'mat-radio-outer-circle']) = count(//div[@class = 'mat-radio-outer-circle'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-radio-button[2]/label/div/div</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>//*[@id=&quot;mat-radio-3-input&quot;]</value>
+         <value>//mat-radio-button[@id='mat-radio-6-input']/label/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -46,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-radio-button[@id='mat-radio-6']/label/div/div</value>
+      <value>//mat-radio-button[@id='mat-radio-6-input']/label/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

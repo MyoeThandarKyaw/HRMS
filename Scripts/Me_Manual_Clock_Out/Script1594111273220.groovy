@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/a_Cl
 
 WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/button_Manual'))
 
-WebUI.check(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/div_In_mat-radio-outer-circle'))
+WebUI.click(findTestObject('Me_Manual_Clock_Out/Page_HRMS/div_In_mat-radio-outer-circle'))
 
 WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/input'))
 

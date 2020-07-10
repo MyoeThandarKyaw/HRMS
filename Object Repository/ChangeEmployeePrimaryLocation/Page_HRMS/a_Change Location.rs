@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section/div/div[2]/div/div/div/table/tbody/tr[15]/td[7]/a</value>
+         <value>//mat-tab-body[@id='mat-tab-content-0-1']/div/section/div/div[2]/div/div/div/table/tbody/tr[1]/td[7]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -115,6 +115,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[9]/td[7]/a</value>
+      <value>//tr[1]/td[7]/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTestSuite" time="12.76" tests="1" failures="0" errors="0">
+   <testsuite name="LoginTestSuite" tests="1" failures="0" errors="0" time="12.76" timestamp="2020-07-10 11:41:12" hostname="MYOE - DESKTOP-155UPUB" id="Test Suites/LoginTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\ATO\\AUTOMATION_TEST_CASE\\TEST_AUTOMATION\\HRMS\\Reports\\20200710_114106\\LoginTestSuite\\20200710_114106"/>
+         <property name="logFiles" value="D:\\ATO\\AUTOMATION_TEST_CASE\\TEST_AUTOMATION\\HRMS\\Reports\\20200710_114106\\LoginTestSuite\\20200710_114106\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MYOE - DESKTOP-155UPUB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="b3533f5b5fba58860ba2a329997c9efe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginWithValidUserNameAndPassword" time="11.966" classname="Test Cases/LoginWithValidUserNameAndPassword" status="PASSED">
+         <system-out><![CDATA[2020-07-10 11:41:12 - [TEST_CASE][PASSED] - Test Cases/LoginWithValidUserNameAndPassword: Test Cases/LoginWithValidUserNameAndPassword
+
+2020-07-10 11:41:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-07-10 11:41:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-10 11:41:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-10 11:41:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-07-10 11:41:16 - [TEST_STEP][PASSED] - navigateToUrl("https://hrms.ahtaroo.com/#/login"): Navigate to 'https://hrms.ahtaroo.com/#/login' successfully
+
+2020-07-10 11:41:22 - [MESSAGE][PASSED] - Navigate to 'https://hrms.ahtaroo.com/#/login' successfully
+
+2020-07-10 11:41:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_username"), demo_usn): Text 'wwhHlaing' is set on object 'Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_username'
+
+2020-07-10 11:41:22 - [MESSAGE][PASSED] - Text 'wwhHlaing' is set on object 'Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_username'
+
+2020-07-10 11:41:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_password"), demo_pwd): Text 'root@123' is set on object 'Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_password'
+
+2020-07-10 11:41:23 - [MESSAGE][PASSED] - Text 'root@123' is set on object 'Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_password'
+
+2020-07-10 11:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/button_Login")): Object: 'Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/button_Login' is clicked on
+
+2020-07-10 11:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-10 11:41:12 - [TEST_SUITE][PASSED] - LoginTestSuite: Test Cases/LoginWithValidUserNameAndPassword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

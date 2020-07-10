@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_In_mat-radio-outer-circle</name>
+   <name>div_Copyright  2020_sidebar-overlay</name>
    <tag></tag>
-   <elementGuidId>56796bc5-4411-43df-b675-539520dcf984</elementGuidId>
+   <elementGuidId>c1bd2e94-66d2-4f30-b1c4-5ad5f0fe5b7f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@class=‘radio’]/following::span[text()=‘Out’]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>//input[@class=‘radio’]/following::span[text()=‘Out’]</value>
+         <value>//div[@id='sidebar-overlay']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,31 +20,31 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>mat-radio-outer-circle</value>
+      <value>sidebar-overlay</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-radio-3&quot;)/label[@class=&quot;mat-radio-label&quot;]/div[@class=&quot;mat-radio-container&quot;]/div[@class=&quot;mat-radio-outer-circle&quot;]</value>
+      <value>id(&quot;sidebar-overlay&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//mat-radio-button[@id='mat-radio-3']/label/div/div</value>
+      <value>//div[@id='sidebar-overlay']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-radio-button[2]/label/div/div</value>
+      <value>//div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

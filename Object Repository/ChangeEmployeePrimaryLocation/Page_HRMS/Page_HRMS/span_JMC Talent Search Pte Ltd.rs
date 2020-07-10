@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Attendance</name>
+   <name>span_JMC Talent Search Pte Ltd</name>
    <tag></tag>
-   <elementGuidId>9bf8dacf-955c-46e1-af16-60e0ab8e2a96</elementGuidId>
+   <elementGuidId>2045d7d8-9c5e-4722-bfd8-38932fd1c8a8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='MY COMPANY'])[1]/following::p[1]</value>
+         <value>//div[2]/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,62 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-option-label ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Attendance </value>
+      <value>JMC Talent Search Pte. Ltd.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/app-menu-sidebar[1]/aside[@class=&quot;main-sidebar sidebar-dark-primary elevation-4&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;mt-2&quot;]/ul[@class=&quot;nav nav-pills nav-sidebar flex-column&quot;]/li[@class=&quot;nav-item has-treeview ng-star-inserted&quot;]/a[@class=&quot;nav-link&quot;]/p[1]</value>
+      <value>id(&quot;af5f738f4e1d-0&quot;)/span[@class=&quot;ng-option-label ng-star-inserted&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MY COMPANY'])[1]/following::p[1]</value>
+      <value>//div[@id='af5f738f4e1d-0']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ME'])[1]/following::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(All)'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::p[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Primary Location'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[2]/preceding::p[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JMC Talent Search Pte. Ltd.'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Attendance']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JMC Talent Search Pte. Ltd.'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a/p</value>
+      <value>//div[2]/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

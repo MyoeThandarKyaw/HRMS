@@ -30,9 +30,9 @@ WebUI.click(findTestObject('Object Repository/ChangeEmployeePrimaryLocation/Page
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/ChangeEmployeePrimaryLocation/Page_HRMS/p_Attendance'))
+WebUI.click(findTestObject('ChangeEmployeePrimaryLocation/Page_HRMS/Page_HRMS/p_Attendance'))
 
-WebUI.click(findTestObject('Object Repository/ChangeEmployeePrimaryLocation/Page_HRMS/p_Company Locations'))
+WebUI.click(findTestObject('ChangeEmployeePrimaryLocation/Page_HRMS/Page_HRMS/p_Company Locations'))
 
 WebUI.click(findTestObject('Object Repository/ChangeEmployeePrimaryLocation/Page_HRMS/div_Primary Location Assignment'))
 

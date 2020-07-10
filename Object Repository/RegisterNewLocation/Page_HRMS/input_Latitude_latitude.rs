@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Latitude_latitude</name>
    <tag></tag>
-   <elementGuidId>85a8a1b0-2557-4e0a-bb28-03db87a44aad</elementGuidId>
+   <elementGuidId>304990ec-5202-4391-8a6d-23b6b80a0e76</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/app-add-company-location[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control ng-untouched ng-dirty ng-valid&quot;]</value>
+      <value>/html[1]/body[@class=&quot;sidebar-mini layout-fixed sidebar-open&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/app-add-company-location[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control ng-untouched ng-dirty ng-valid&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

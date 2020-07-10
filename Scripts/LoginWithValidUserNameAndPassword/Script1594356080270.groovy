@@ -16,30 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testdata.InternalData
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
+//
+//WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+//
+//WebUI.setText(findTestObject('Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_username'), demo_usn)
+//
+//WebUI.setText(findTestObject('Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_password'), demo_pwd)
+//
+//WebUI.click(findTestObject('Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/button_Login'))
 
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
-
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_Login'))
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/p_Attendance'))
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/p_Company Locations'))
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_New Location'))
-
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Latitude_latitude'), '1.2990668')
-
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Name_locationName'), 'Cambridge Univesity')
-
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Longitude_longitude'), '103.7773558')
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_Save'))
-
+InternalData data = findTestData("Login_Data")  
+for(def index : (0..data.getRowNumbers()-1)) {
+	 WebUI.openBrowser('')
+	 WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')	 
+	 WebUI.setText(findTestObject('Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_username'),data.internallyGetValue("demo_usn", index)) 
+	 WebUI.setText(findTestObject('Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/input_HRMS_password'), data.internallyGetValue("demo_pwd", index))
+	 WebUI.click(findTestObject('Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/button_Login'))
+	 WebUI.maximizeWindow()
+	 }
