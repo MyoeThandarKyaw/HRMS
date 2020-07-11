@@ -21,25 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_Login'))
+WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/button_Login'))
 
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/p_Attendance'))
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/p_Company Locations'))
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_New Location'))
-
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Latitude_latitude'), '1.2990668')
-
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Name_locationName'), 'VSK(YGN)')
-
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Longitude_longitude'), '103.7773558')
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_Save'))
+WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/i_MY COMPANY_right fas fa-angle-left'))
 

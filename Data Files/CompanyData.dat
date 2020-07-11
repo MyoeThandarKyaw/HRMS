@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Login_Data</name>
+   <name>CompanyData</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>2b86d6b0-638c-45f3-82fb-6e0702654a7a</dataFileGUID>
+   <dataFileGUID>c6783371-2dc8-46ef-930d-0d1f3ee32d0e</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>wwhHlaing root%40123</data>
-   <data>eieiPhyo root%40123</data>
-   <data>mayzinlin root%40123</data>
+   <data>GES+Singapore+Pte+Ltd 1.4456826 103.7733586</data>
+   <data>Activate+ 1.3186424 103.8918773</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>demo_usn</name>
-      <size>3</size>
+      <name>company_name</name>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>demo_pwd</name>
-      <size>3</size>
+      <name>longi_tude</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>latitude</name>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

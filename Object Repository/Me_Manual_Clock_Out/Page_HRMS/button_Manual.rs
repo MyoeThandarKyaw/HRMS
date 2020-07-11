@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Manual</name>
    <tag></tag>
-   <elementGuidId>e6f2c906-92ac-4aa1-8110-17221ea79eb3</elementGuidId>
+   <elementGuidId>fdf668ca-a4dd-48f4-b521-d9d5aa0ff719</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -59,14 +59,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clock In'])[2]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clock Out'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[8]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[4]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

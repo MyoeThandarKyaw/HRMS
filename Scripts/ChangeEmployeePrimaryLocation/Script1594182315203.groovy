@@ -44,7 +44,9 @@ WebUI.click(findTestObject('Object Repository/ChangeEmployeePrimaryLocation/Page
 
 WebUI.click(findTestObject('Object Repository/ChangeEmployeePrimaryLocation/Page_HRMS/span_(All)_ng-arrow-wrapper'))
 
-WebUI.click(findTestObject('Object Repository/ChangeEmployeePrimaryLocation/Page_HRMS/span_JMC Talent Search Pte Ltd'))
+WebUI.click(findTestObject('ChangeEmployeePrimaryLocation/Page_HRMS/span_JMC Talent Search Pte Ltd'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/ChangeEmployeePrimaryLocation/Page_HRMS/button_Save'))
 
