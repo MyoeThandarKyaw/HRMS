@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteUnWantedTimeTrackingRecord(ForOnlyOne)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0c91c33-5fe4-4a32-b031-5b4dd9e6782a</testCaseGuid>
+</TestCaseEntity>

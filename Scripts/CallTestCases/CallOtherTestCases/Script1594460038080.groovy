@@ -16,5 +16,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase("Test Case ID"), ["key1":"value1"], FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase("Test Cases/Me_Manual_Clock_Out"), ["key1":"value1"], FailureHandling.OPTIONAL)
 

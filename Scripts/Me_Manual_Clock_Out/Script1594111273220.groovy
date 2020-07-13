@@ -40,6 +40,8 @@ CustomKeywords.'custom_keyword_for_raido_button.clickUsingJS.click_radio_button'
 
 WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/input'))
 
+//CustomKeywords.'custom_keyword_for_raido_button.clickUsingJS.click_radio_button'(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/span_GES Singapore Pte Ltd'),
+//	30)
 WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/span_GES Singapore Pte Ltd'))
 
 WebUI.setText(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/textarea_Reason_reason'), '-To attend GES company')

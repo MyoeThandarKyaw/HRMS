@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Delete_1</name>
    <tag></tag>
-   <elementGuidId>57b535eb-3e0c-43ef-b132-d373bbdace74</elementGuidId>
+   <elementGuidId>37ff1d38-01bc-4b9a-9626-5b7ca1ef64c6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

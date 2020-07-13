@@ -16,25 +16,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testdata.InternalData as InternalData
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.openBrowser('')
+InternalData data = findTestData('TimeTrackingDeleteData')
 
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+for (def index : (0..data.getRowNumbers() - 1)) {
+    WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+    WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/input_HRMS_password'), 
-    'tR+yPLK5N5TO48zpsW01Kw==')
+    WebUI.setText(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
 
-WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/button_Login'))
+    WebUI.setEncryptedText(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/input_HRMS_password'), 
+        'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.maximizeWindow()
+    WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/a_Attendance'))
+    WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/a_Time Tracking'))
+    WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/a_Attendance'))
 
-WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/button_Delete'))
+    WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/a_Time Tracking'))
 
-WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/button_Delete_1'))
+    WebUI.click(findTestObject('DeleteUnwantedTimeTrackingRecords/Page_HRMS/button_Delete'))
+
+//        String assign_xpath = data.internallyGetValue('locator', index)
+//    
+//        TestObject toSpanDash = new TestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/Page_HRMS/button_Delete')
+//    
+//        toSpanDash.addProperty('xpath', ConditionType.EQUALS, assign_xpath)
+		
+    WebUI.click(findTestObject('DeleteUnwantedTimeTrackingRecords/Page_HRMS/button_Delete_1'))
+}
 
