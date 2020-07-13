@@ -26,12 +26,11 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 public class clickUsingJS {
-	def click_radio_button(TestObject to, int timeout)
-	{
-	WebDriver driver = DriverFactory.getWebDriver()
-	WebElement element = WebUiCommonHelper.findWebElement(to, timeout)
-	JavascriptExecutor executor = ((driver) as JavascriptExecutor)
-	executor.executeScript('arguments[0].click()', element)
+	def click_radio_button(TestObject to, int timeout) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebElement element = WebUiCommonHelper.findWebElement(to, timeout)
+		JavascriptExecutor executor = ((driver) as JavascriptExecutor)
+		executor.executeScript('arguments[0].click()', element)
 	}
 }
 

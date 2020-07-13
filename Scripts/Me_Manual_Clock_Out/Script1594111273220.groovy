@@ -32,24 +32,17 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/p_Clock In'))
 
-WebUI.scrollToElement(findTestObject('Me_Manual_Clock_Out/Page_HRMS/button_Manual'), 3)
-
 WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/button_Manual'))
 
-WebUI.scrollToPosition(797, 353)
-
-WebUI.focus(findTestObject('Me_Manual_Clock_Out/Page_HRMS/div_In_mat-radio-outer-circle'))
-
-//WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/div_In_mat-radio-outer-circle'))
-
-CustomKeywords.'custom_keyword_for_raido_button.clickUsingJS.click_radio_button'(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/div_In_mat-radio-outer-circle'), 
+//WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/div_In_mat-radio-inner-circle'))
+CustomKeywords.'custom_keyword_for_raido_button.clickUsingJS.click_radio_button'(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/div_In_mat-radio-inner-circle'), 
     30)
 
 WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/input'))
 
-WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/div_Singapore Office'))
+WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/span_GES Singapore Pte Ltd'))
 
-WebUI.setText(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/textarea_Reason_reason'), 'To attend meeting')
+WebUI.setText(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/textarea_Reason_reason'), '-To attend GES company')
 
 WebUI.click(findTestObject('Object Repository/Me_Manual_Clock_Out/Page_HRMS/button_Submit'))
 

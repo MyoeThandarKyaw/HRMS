@@ -21,35 +21,37 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+WebUI.setText(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/button_Login'))
+WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/button_Login'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/p_Time Clock Requests'))
+WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/p_Time Clock Requests'))
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/button_New Manual Entry'))
+WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/button_New Manual Entry'))
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/span_Employees'))
+WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/span_Employees'))
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/div_Daw Zin Zin Phyo'))
+WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/div_Daw Zin Zin Phyo'))
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/div_My Direct ReportsAll Employees'))
+WebUI.click(findTestObject('ManualTimeClockRequest/Page_HRMS/Page_HRMS/div_My Direct ReportsAll Employees'))
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/button_Add Time Clock'))
+WebUI.click(findTestObject('RegisterManualClockOut/Page_HRMS/button_New Manual Entry'))
 
-WebUI.check(findTestObject('RegisterClockOut/Page_HRMS/Page_HRMS/div_Clock In_mat-radio-inner-circle'))
+//WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/div_Clock In_mat-radio-outer-circle'))
+CustomKeywords.'custom_keyword_for_raido_button.clickUsingJS.click_radio_button'(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/div_Clock In_mat-radio-outer-circle'), 
+    30)
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/input'))
+WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/input'))
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/span_Talent Trader Office'))
+WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/span_NUS(Singapore) University'))
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/button_Save'))
+WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/button_Save'))
 
-WebUI.setText(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/textarea_Comment_comment'), '-Clock Out by Daw Zin Zin Phyo')
+WebUI.setText(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/textarea_Comment_comment'), 'To attend NUS University')
 
-WebUI.click(findTestObject('Object Repository/RegisterClockOut/Page_HRMS/button_Save  View'))
+WebUI.click(findTestObject('Object Repository/RegisterManualClockOut/Page_HRMS/button_Save_1'))
 
