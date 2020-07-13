@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NewManualTimeClock(AllEmployees_Clock_Out)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a8605c9-ae49-4a98-910a-f22a8f7c1373</testCaseGuid>
+</TestCaseEntity>
