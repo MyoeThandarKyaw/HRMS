@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/
 
 WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/button_Login'))
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/a_Attendance'))
 
 WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/a_Time Tracking'))

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Delete_1</name>
+   <name>div_U Kyaw Linn Htike</name>
    <tag></tag>
-   <elementGuidId>37ff1d38-01bc-4b9a-9626-5b7ca1ef64c6</elementGuidId>
+   <elementGuidId>5013f6e1-4e60-44db-aa11-80a03fb3bd3b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='U Win Maw (L1)'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,76 +17,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>swal2-confirm swal2-styled</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delete</value>
+      <value>U Kyaw Linn Htike</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;swal2-shown swal2-height-auto&quot;]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-warning swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-confirm swal2-styled&quot;]</value>
+      <value>/html[1]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/app-new-manual-time-clock[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body pb-0&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10&quot;]/ng-multiselect-dropdown[1]/div[@class=&quot;multiselect-dropdown&quot;]/div[@class=&quot;dropdown-list&quot;]/ul[@class=&quot;item2&quot;]/li[@class=&quot;multiselect-item-checkbox ng-star-inserted&quot;]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='U Win Maw (L1)'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('You won', &quot;'&quot;, 't be able to revert this!')])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='U Soe Moe Htwe'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daw Yu Mon Mon Tun'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daw Khaing Zar Lwin'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='U Kyaw Linn Htike']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[3]/button</value>
+      <value>//li[76]/div</value>
    </webElementXpaths>
 </WebElementEntity>
