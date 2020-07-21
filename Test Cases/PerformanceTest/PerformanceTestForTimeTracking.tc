@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PerformanceTestForTimeTracking</name>
+   <tag></tag>
+   <comment>Loading time&quot; + ts2 - ts1 / 1000 + &quot;!</comment>
+   <testCaseGuid>5fc4a48d-63e2-49b6-a1af-1ad44d563c1e</testCaseGuid>
+</TestCaseEntity>

@@ -16,9 +16,30 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.awt.Robot
+import java.awt.event.KeyEvent
+
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
+WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
+WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+
+WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/button_Login'))
+
+
+
+
+
+(1..10).each {
+Robot robot = new Robot()
+robot.keyPress(KeyEvent.VK_CONTROL)
+robot.keyPress(KeyEvent.VK_T)
+robot.keyRelease(KeyEvent.VK_CONTROL)
+robot.keyRelease(KeyEvent.VK_T)
 WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
 WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
@@ -28,4 +49,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/CallTestCases/LoginTest
 WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/i_MY COMPANY_right fas fa-angle-left'))
+
+	}
 

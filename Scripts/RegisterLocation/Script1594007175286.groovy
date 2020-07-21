@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/butt
 
 WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Latitude_latitude'), '1.2990668')
 
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Name_locationName'), 'VSK(YGN)')
+WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Name_locationName'), 'NUS Office')
 
 WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Longitude_longitude'), '103.7773558')
 

@@ -47,6 +47,8 @@ WebUI.click(findTestObject('ManualTimeClockRequest/Page_HRMS/span_Binary Lab'))
 
 WebUI.click(findTestObject('Object Repository/ManualTimeClockRequest/Page_HRMS/button_Save'))
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/ManualTimeClockRequest/Page_HRMS/textarea_Comment_comment'), '-Clock in request for Daw Zin Zin Phyo')
 
 WebUI.click(findTestObject('Object Repository/ManualTimeClockRequest/Page_HRMS/button_Save_1'))

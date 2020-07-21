@@ -10,20 +10,25 @@
    <driver>InternalData</driver>
    <data>GES+Singapore+Pte+Ltd 1.4456826 103.7733586</data>
    <data>Activate+ 1.3186424 103.8918773</data>
+   <data>Activate+ null null</data>
+   <data>Activate+ null null</data>
+   <data>Activate+ null null</data>
+   <data>Activate+ null null</data>
+   <data>Activate+ null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>company_name</name>
-      <size>2</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>longi_tude</name>
-      <size>2</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>latitude</name>
-      <size>2</size>
+      <size>7</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
