@@ -21,29 +21,40 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/LoadPerformanceforTimeTracking/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+WebUI.setText(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LoadPerformanceforTimeTracking/Page_HRMS/input_HRMS_password'), 
-    'tR+yPLK5N5TO48zpsW01Kw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/LoadPerformanceforTimeTracking/Page_HRMS/button_Login'))
+WebUI.click(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/button_Login'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/LoadPerformanceforTimeTracking/Page_HRMS/a_Attendance'))
+WebUI.click(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/a_Attendance'))
 
+WebUI.click(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/p_Time Clock Requests'))
+
+WebUI.click(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/button_View History'))
+
+//
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/Page_HRMS/span_1549'), 
+    10)
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/Page_HRMS/span_955'),
+	10)
+
+WebUI.refresh()
 long ts1 = System.currentTimeMillis()
 
-WebUI.click(findTestObject('Object Repository/LoadPerformanceforTimeTracking/Page_HRMS/p_Time Tracking'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/Page_HRMS/span_1549'),
+	10)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/LoadPerformanceforTimeTracking/Page_HRMS/Page_HRMS/Page_HRMS/span_26'), 
-    10)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/LoadPerformanceforTimeTracking/Page_HRMS/Page_HRMS/Page_HRMS/span_164'), 
-    10)
-
+WebUI.waitForElementPresent(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/Page_HRMS/span_955'),
+	10)
+//WebUI.click(findTestObject('Object Repository/RefreshLoadingTime/Page_HRMS/h1_Time Clock Request History'))
 long ts2 = System.currentTimeMillis()
 
 println(('Login duration: ' + ((ts2 - ts1) / 1000)) + ' seconds.')
 
 WebUI.comment(('Loading time ' + ((ts2 - ts1) / 1000)) + '!')
+

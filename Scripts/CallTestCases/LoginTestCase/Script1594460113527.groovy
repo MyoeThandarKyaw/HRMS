@@ -16,39 +16,46 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.awt.Robot
-import java.awt.event.KeyEvent
-
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
+import com.kms.katalon.core.testdata.InternalData as InternalData
 
 WebUI.openBrowser('')
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+InternalData data = findTestData('Login_Data')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+//long ts1=0;
+long ts1 = System.currentTimeMillis()
 
-WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/button_Login'))
+for (def index : (0..data.getRowNumbers() - 1)) {
+    //Robot robot = new Robot()
+    //robot.keyPress(KeyEvent.VK_CONTROL)
+    //robot.keyPress(KeyEvent.VK_T)
+    //robot.keyRelease(KeyEvent.VK_CONTROL)
+    //robot.keyRelease(KeyEvent.VK_T)
+    //WebUI.openBrowser('https://hrms.ahtaroo.com/#/login')
+    WebUI.executeJavaScript('window.open();', [])
 
+    WebUI.maximizeWindow()
 
+    currentWindow = WebUI.getWindowIndex()
 
+    //Go in to new tab
+    WebUI.switchToWindowIndex(currentWindow + 1)
 
+    WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
-(1..10).each {
-Robot robot = new Robot()
-robot.keyPress(KeyEvent.VK_CONTROL)
-robot.keyPress(KeyEvent.VK_T)
-robot.keyRelease(KeyEvent.VK_CONTROL)
-robot.keyRelease(KeyEvent.VK_T)
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+    WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_username'), data.internallyGetValue(
+            'demo_usn', index))
 
-WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+    WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_password'), data.internallyGetValue(
+            'demo_pwd', index))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+    WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/button_Login')) //WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/i_MY COMPANY_right fas fa-angle-left'))
+}
 
-WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/button_Login'))
+long ts2 = System.currentTimeMillis()
 
-WebUI.click(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/i_MY COMPANY_right fas fa-angle-left'))
+println(('Loading time ' + ((ts2 - ts1) / 1000)) + ' seconds.')
 
-	}
-
+WebUI.comment(('Loading time ' + ((ts2 - ts1) / 1000)) + '!')

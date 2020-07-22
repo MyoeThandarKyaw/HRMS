@@ -21,33 +21,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/PerformanceTest/PrimaryLocationAssignment/Page_HRMS/input_HRMS_username'), 
-    'wwhHlaing')
+WebUI.setText(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/PerformanceTest/PrimaryLocationAssignment/Page_HRMS/input_HRMS_password'), 
-    'tR+yPLK5N5TO48zpsW01Kw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/PerformanceTest/PrimaryLocationAssignment/Page_HRMS/button_Login'))
+WebUI.click(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/button_Login'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/PerformanceTest/PrimaryLocationAssignment/Page_HRMS/a_Attendance'))
+WebUI.click(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/a_Attendance'))
 
-//println('Start currentTimeMillis: ' + (System.currentTimeMillis() ) )
-long ts1 = System.currentTimeMillis() / 1000
+WebUI.click(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/p_Time Tracking'))
 
-WebUI.click(findTestObject('Object Repository/PerformanceTest/PrimaryLocationAssignment/Page_HRMS/p_Company Locations'))
+WebUI.click(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/input_Clocked Date_dateRange'))
 
-WebUI.click(findTestObject('Object Repository/PerformanceTest/PrimaryLocationAssignment/Page_HRMS/div_Primary Location Assignment'))
+WebUI.click(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/button_Yesterday'))
 
-//WebUI.waitForPageLoad(60)
-WebUI.waitForElementPresent(findTestObject('Object Repository/PerformanceTest/PrimaryLocationAssignment/Page_HRMS/Page_HRMS/span_1363'), 
-    10)
+WebUI.click(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/button_Apply Filters'))
 
-long ts2 = System.currentTimeMillis() / 1000
+long ts1 = System.currentTimeMillis()
 
-println(('Start duration: ' + ts1) + ' seconds.')
+//WebUI.click(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/span_1544'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/TestTrackingFilter/Page_HRMS/span_1544'), 10)
 
-println(('End duration: ' + ts2) + ' seconds.')
+long ts2 = System.currentTimeMillis()
 
-println(('Login duration: ' + (ts2 - ts1)) + ' seconds.')
+println(('Loading time ' + ((ts2 - ts1) / 1000)) + ' seconds.')
+
+WebUI.comment(('Loading time ' + ((ts2 - ts1) / 1000)) + '!')
