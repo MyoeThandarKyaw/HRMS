@@ -34,26 +34,28 @@ WebUI.maximizeWindow()
 WebUI.click(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/p_Attendance'))
 
 WebUI.click(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/p_Time Clock Requests'))
-long ts1 = System.currentTimeMillis()
+
 
 WebUI.click(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/button_View History'))
 
+long ts1 = System.currentTimeMillis()
+
 WebUI.click(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/div_5'))
 
-
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/span_100'), 10)
+WebUI.waitForElementPresent(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/span_100'), 
+    10)
 
 WebUI.click(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/span_100'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/Page_HRMS/span_28'), 10)
+WebUI.waitForElementPresent(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/Page_HRMS/Page_HRMS/span_1603'), 
+    10)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/Page_HRMS/span_445'), 10)
+WebUI.waitForElementPresent(findTestObject('Object Repository/PerformanceTest/TimeClockRequestHistory/Page_HRMS/Page_HRMS/Page_HRMS/span_955'), 
+    10)
 
 //WebUI.waitForElementPresent(findTestObject('Object Repository/LoadPerformanceforTimeTracking/Page_HRMS/Page_HRMS/Page_HRMS/span_164'), 10)
-
 long ts2 = System.currentTimeMillis()
 
-println(('Login duration: ' + ((ts2 - ts1) / 1000)) + ' seconds.')
+println(('Load duration: ' + ((ts2 - ts1) / 1000)) + ' seconds.')
 
-WebUI.comment('Loading time '+((ts2 - ts1) / 1000) +'!')
+WebUI.comment(('Loading time ' + ((ts2 - ts1) / 1000)) + '!')

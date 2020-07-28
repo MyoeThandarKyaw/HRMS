@@ -3,7 +3,7 @@
    <description></description>
    <name>textarea_Leave Duration_leaveReason</name>
    <tag></tag>
-   <elementGuidId>51ba34af-6ec9-473d-ad75-26c2dfbcbdc3</elementGuidId>
+   <elementGuidId>612ca316-c7d7-4136-84d2-9a7380c6c4ff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -46,6 +46,13 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

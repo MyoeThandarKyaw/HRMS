@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Add New</name>
    <tag></tag>
-   <elementGuidId>1ebb5da1-7322-4dd8-b66c-3aa9f8ba07a2</elementGuidId>
+   <elementGuidId>4970f2ad-3637-4eeb-b405-9a213aa94119</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -87,14 +87,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Filters'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Filters'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subsidiary'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

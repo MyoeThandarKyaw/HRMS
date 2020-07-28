@@ -33,23 +33,21 @@ WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/p_Leave
 
 WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/button_Add New'))
 
-WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/input'))
+WebUI.setText(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/input'), 'Daw Wai Moe')
 
-WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/span_Daw Myat Thet Nwe'))
+WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/span_Daw Win Moe'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/span_'))
 
 WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/span_Earn Leave'))
 
-WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/input_Request Type_dateRange'))
-
-WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/td_17'))
-
-WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/td_17'))
-
-WebUI.setText(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/textarea_Leave Duration_leaveReason'), 'Covocation ceremony')
+WebUI.setText(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/textarea_Leave Duration_leaveReason'), '-to attend the NUS university')
 
 WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/button_Add Leave'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/ManualLeaveEntry/Page_HRMS/button_Save'))
 
