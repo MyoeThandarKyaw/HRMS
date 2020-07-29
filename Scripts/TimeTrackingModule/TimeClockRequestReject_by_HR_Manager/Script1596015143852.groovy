@@ -21,25 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+WebUI.setText(findTestObject('Object Repository/TimeClockRequestReject_by_HR_Manager/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/TimeClockRequestReject_by_HR_Manager/Page_HRMS/input_HRMS_password'), 
+    'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_Login'))
+WebUI.click(findTestObject('Object Repository/ChangeLocationForMultipleEmployees/Page_HRMS/button_Login'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/p_Attendance'))
+WebUI.doubleClick(findTestObject('Object Repository/TimeClockRequestReject_by_HR_Manager/Page_HRMS/p_Time Clock Requests'))
 
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/p_Company Locations'))
+WebUI.click(findTestObject('Object Repository/TimeClockRequestReject_by_HR_Manager/Page_HRMS/button_Reject'))
 
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_New Location'))
+WebUI.setText(findTestObject('Object Repository/TimeClockRequestReject_by_HR_Manager/Page_HRMS/textarea_concat(Approver  s Comment)_comment'), 
+    '-Move the meeting tomorrow')
 
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Latitude_latitude'), '1.2990668')
-
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Name_locationName'), 'NUS Office')
-
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Longitude_longitude'), '103.7773558')
-
-WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_Save'))
+WebUI.click(findTestObject('Object Repository/TimeClockRequestReject_by_HR_Manager/Page_HRMS/button_Save'))
 
