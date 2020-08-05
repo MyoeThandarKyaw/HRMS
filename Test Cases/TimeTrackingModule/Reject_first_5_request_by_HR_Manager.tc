@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reject_first_5_request_by_HR_Manager</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b304c198-640d-4f49-8e1b-2031f17b9340</testCaseGuid>
+</TestCaseEntity>
