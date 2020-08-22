@@ -3,11 +3,11 @@
    <description></description>
    <name>button_Delete</name>
    <tag></tag>
-   <elementGuidId>b1f26a33-f498-4d82-82e3-be8d56000e29</elementGuidId>
+   <elementGuidId>8b80c6e3-b0f1-4683-873b-c7368b655624</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[16]/td[10]/span/button</value>
+         <value>//td[10]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,69 +24,76 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-danger btn-sm</value>
+      <value>btn btn-danger btn-xs</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>btnDelete_CompanyLocation_2074</value>
+      <value>btn_delete514</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Delete </value>
+      <value> Delete </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/app-time-tracking[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;my-container mat-elevation-z8&quot;]/table[@class=&quot;mat-table&quot;]/tbody[1]/tr[@class=&quot;mat-row ng-star-inserted&quot;]/td[@class=&quot;mat-cell cdk-column-action mat-column-action ng-star-inserted&quot;]/span[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;btn btn-danger btn-sm&quot;]</value>
+      <value>/html[1]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed ng-tns-0-2&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/app-time-clock-history[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;card mt-3&quot;]/div[@class=&quot;card-body pb-0 pt-0&quot;]/div[@class=&quot;table-responsive&quot;]/div[@class=&quot;timeclock-container mat-elevation-z8&quot;]/table[@class=&quot;mat-table&quot;]/tbody[1]/tr[@class=&quot;mat-row ng-star-inserted&quot;]/td[@class=&quot;mat-cell cdk-column-action mat-column-action mat-table-sticky ng-star-inserted&quot;]/button[@class=&quot;btn btn-danger btn-xs&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@name='btnDelete_CompanyLocation_2074']</value>
+      <value>//button[@name='btn_delete514']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[21]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[27]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jul 13, 2020'])[22]/preceding::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aung Aung'])[2]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Out'])[13]/preceding::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[2]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[19]/td[10]/span/button</value>
+      <value>//td[10]/button</value>
    </webElementXpaths>
 </WebElementEntity>

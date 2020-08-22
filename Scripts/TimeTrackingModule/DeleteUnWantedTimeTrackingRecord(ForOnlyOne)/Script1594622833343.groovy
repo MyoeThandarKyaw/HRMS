@@ -19,23 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
 WebUI.setText(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/input_HRMS_username'), 
-    'wwhHlaing')
+    'miemie')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
-
-WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/form_Login'))
 
 WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/button_Login'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/a_Attendance'))
-
-WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/a_Time Tracking'))
+WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/p_Time entry log'))
 
 WebUI.click(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/button_Delete'))
 

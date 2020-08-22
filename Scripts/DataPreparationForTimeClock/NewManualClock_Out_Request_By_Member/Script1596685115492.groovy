@@ -21,13 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.ahtaroo.com/')
 
-WebUI.setText(findTestObject('Object Repository/NewManualClock_Out_Request_By_Member/Page_HRMS/input_HRMS_username'), 'phyokyaw')
+WebUI.setText(findTestObject('Object Repository/NewManualClock_Out_Request_By_Member/Page_HRMS/input_HRMS_username'), 'aungaung')
 
 //WebUI.setText(findTestObject('Object Repository/NewManualClock_Out_Request_By_Member/Page_HRMS/input_HRMS_username'), 'eieiPhyo')
 //WebUI.setText(findTestObject('Object Repository/NewManualClock_Out_Request_By_Member/Page_HRMS/input_HRMS_username'), 'khinlay')
 //WebUI.setText(findTestObject('Object Repository/NewManualClock_Out_Request_By_Member/Page_HRMS/input_HRMS_username'), 'phuengonphwe')
-WebUI.setText(findTestObject('Object Repository/NewManualClock_Out_Request_By_Member/Page_HRMS/input_HRMS_password'), 
-    'root@123')
+WebUI.setText(findTestObject('Object Repository/NewManualClock_Out_Request_By_Member/Page_HRMS/input_HRMS_password'), 'root@123')
 
 WebUI.click(findTestObject('Object Repository/NewManualClock_Out_Request_By_Member/Page_HRMS/button_Login'))
 

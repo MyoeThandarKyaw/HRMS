@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('')
+WebUI.navigateToUrl('https://test.ahtaroo.com/')
 
-WebUI.setText(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/input_HRMS_username'), 'miemie')
+WebUI.setText(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/input_HRMS_username'), 'haymarkyawwin')
 
 WebUI.setText(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/input_HRMS_password'), 'root@123')
 

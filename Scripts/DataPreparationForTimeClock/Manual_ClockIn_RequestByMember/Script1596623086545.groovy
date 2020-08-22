@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
 WebUI.setText(findTestObject('Object Repository/DataPreparationForTimeClock/Manual_ClockIn_RequestByMember/Page_HRMS/input_HRMS_username'), 
-    'thawdarlwin')
+    'zoneaindraymyo')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/DataPreparationForTimeClock/Manual_ClockIn_RequestByMember/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
