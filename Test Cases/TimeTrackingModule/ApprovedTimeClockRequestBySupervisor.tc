@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>AllEmployeesDirectly (1)</name>
+   <name>ApprovedTimeClockRequestBySupervisor</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c926f419-6012-4968-9265-9cbacc1825ae</testCaseGuid>
+   <testCaseGuid>82ed36b3-5cc6-43a7-98ff-a2c5b99bcc22</testCaseGuid>
 </TestCaseEntity>

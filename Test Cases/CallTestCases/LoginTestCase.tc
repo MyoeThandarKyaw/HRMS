@@ -3,6 +3,6 @@
    <description></description>
    <name>LoginTestCase</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Loading time &quot; + ts2 - ts1 / 1000 + &quot;!</comment>
    <testCaseGuid>0a750c97-fe67-4e87-9f41-c2b0e0c21e19</testCaseGuid>
 </TestCaseEntity>

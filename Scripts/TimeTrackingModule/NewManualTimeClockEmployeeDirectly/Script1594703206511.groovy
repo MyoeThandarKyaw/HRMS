@@ -70,13 +70,13 @@ WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly
 
 WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/button_Add Time Clock'))
 
-WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/input_Clocking Time_form-control ng-untouch_73c88a'))
+//WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/input_Clocking Time_form-control ng-untouch_73c88a'))
 
-WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/span_9'))
-
-WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/span'))
-
-WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/span_Ok'))
+//WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/span_9'))
+//
+//WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/span'))
+//
+//WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/span_Ok'))
 
 WebUI.click(findTestObject('Object Repository/NewManualTimeClockEmployeeDirectly/Page_HRMS/input'))
 

@@ -48,7 +48,7 @@ WebElement Table = driver.findElement(By.xpath('/html/body/app-root/app-main/div
 
 List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
-String ExpectedValue = 'Approved'
+String ExpectedValue = 'Rejected'
 
 int rows_count = rows_table.size()
 boolean is_ok=false;

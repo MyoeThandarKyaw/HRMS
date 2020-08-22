@@ -35,11 +35,11 @@ WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/p_Co
 
 WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_New Location'))
 
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Latitude_latitude'), '1.2990668')
+WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Latitude_latitude'), '16.7822112')
 
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Name_locationName'), 'Strategy First Office')
+WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Name_locationName'), 'MCB Office (Mingalar Taung Nyunt)')
 
-WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Longitude_longitude'), '103.7773558')
+WebUI.setText(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/input_Longitude_longitude'), '96.1559751')
 
 WebUI.click(findTestObject('Object Repository/RegisterNewLocation/Page_HRMS/button_Save'))
 

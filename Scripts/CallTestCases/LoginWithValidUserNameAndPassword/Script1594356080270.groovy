@@ -28,7 +28,7 @@ import com.kms.katalon.core.testdata.InternalData
 //
 //WebUI.click(findTestObject('Object Repository/LoginWithValidUserNameAndPassword/Page_HRMS/button_Login'))
 
-InternalData data = findTestData("Login_Data")  
+InternalData data = findTestData("TestLogin_Data")  
 for(def index : (0..data.getRowNumbers()-1)) {
 	 WebUI.openBrowser('')
 	 WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')	 

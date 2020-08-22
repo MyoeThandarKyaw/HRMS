@@ -41,9 +41,12 @@ WebUI.click(findTestObject('Object Repository/AssginEmployeeLocation/Page_HRMS/d
 for (def index : (0..data.getRowNumbers() - 1)) {
     WebUI.click(findTestObject('Object Repository/AssginEmployeeLocation/Page_HRMS/a_Assign Location'))
 
+    WebUI.scrollToElement(findTestObject('Object Repository/AssginEmployeeLocation/Page_HRMS/a_Assign Location'), 3)
+
     WebUI.click(findTestObject('Object Repository/AssginEmployeeLocation/Page_HRMS/span_(All)_ng-arrow-wrapper'))
 
     WebUI.click(findTestObject('Object Repository/AssginEmployeeLocation/Page_HRMS/span_MIU Office'))
 
     WebUI.click(findTestObject('Object Repository/AssginEmployeeLocation/Page_HRMS/button_Save'))
 }
+

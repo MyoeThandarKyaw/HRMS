@@ -33,13 +33,13 @@ WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Membe
 
 WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/button_Manual'))
 
-WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/input_Time_mat-input-1'))
+//WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/input_Time_mat-input-1'))
 
-WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/span_9'))
+//WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/span_9'))
 
-WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/div_PM_clock-face__number clock-face__numbe_8764a5'))
+//WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/div_PM_clock-face__number clock-face__numbe_8764a5'))
 
-WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/span_Ok'))
+//WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/span_Ok'))
 
 WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/input'))
 
@@ -48,7 +48,7 @@ WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Membe
 WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/div_Binary Lab_mat-checkbox-inner-container'))
 
 WebUI.setText(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/textarea_Reason_reason'), 
-    'From Binary Lab office')
+    'To attend meeting')
 
 WebUI.click(findTestObject('Object Repository/ManualClockInRequestWithTime(Member)/Page_HRMS/button_Submit'))
 

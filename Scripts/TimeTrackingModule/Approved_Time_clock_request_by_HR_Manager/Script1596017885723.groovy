@@ -20,7 +20,7 @@ import com.kms.katalon.core.testdata.InternalData as InternalData
 
 InternalData data = findTestData('Login_Data')
 
-for (def index : (4..data.getRowNumbers() - 3)) {
+for (def index : (4..data.getRowNumbers() - 4)) {
     WebUI.openBrowser('')
 
     WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')

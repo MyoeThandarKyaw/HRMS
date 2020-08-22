@@ -32,7 +32,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/a_Clock In'))
 
-WebUI.focus(findTestObject('ManaualClockInRequest(Member)/Page_HRMS/button_Manual'))
+//WebUI.focus(findTestObject('ManaualClockInRequest(Member)/Page_HRMS/button_Manual'))
 
 WebUI.click(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/button_Manual'))
 

@@ -19,27 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+WebUI.navigateToUrl('')
 
-WebUI.setText(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+WebUI.setText(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/input_HRMS_username'), 'miemie')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+WebUI.setText(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/input_HRMS_password'), 'root@123')
 
 WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/p_Time Clock Requests'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/button_New Manual Entry'))
+WebUI.click(findTestObject('AllEmployeesDirectly/Page_HRMS/a_Clock InOut Log'))
 
-WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/div_My Direct Reports_mat-radio-outer-circle'))
+WebUI.click(findTestObject('AllEmployeesDirectly/Page_HRMS/button_New Manual Entries'))
 
-WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/span'))
-
-WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/span_Employees'))
-
-WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/span_Employees_dropdown-down'))
-
-WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/span'))
+//WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/div_My Direct Reports_mat-radio-outer-circle'))
+CustomKeywords.'custom_keyword_for_raido_button.clickUsingJS.click_radio_button'(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/div_My direct reports_mat-radio-inner-circle'), 
+    30)
 
 WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/span_Employees_dropdown-down'))
 
@@ -55,9 +51,11 @@ WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/inp
 
 WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/div_Ahtar Oo CoLtd'))
 
-WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/button_Save'))
+WebUI.setText(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/textarea_Reason_reason'), 'Clock in From Ahtar Oo')
 
-WebUI.setText(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/textarea_Comment_comment'), 'Clock in From Ahtar Oo')
+WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/Page_HRMS/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/button_Save  View'))
+WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/Page_HRMS/button_Save  View'))
+
+
 
