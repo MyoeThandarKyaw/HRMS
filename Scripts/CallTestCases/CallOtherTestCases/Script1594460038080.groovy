@@ -17,6 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 (1..10).each {
-WebUI.callTestCase(findTestCase("Test Cases/CallTestCases/LoginTestCase"), ["key1":"value1"], FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase("CallTestCases/LoginTestCase"), ["key1":"value1"], FailureHandling.OPTIONAL)
 }
 

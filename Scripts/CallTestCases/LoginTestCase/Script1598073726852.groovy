@@ -43,7 +43,7 @@ for (def index : (0..data.getRowNumbers() - 1)) {
     //Go in to new tab
     WebUI.switchToWindowIndex(currentWindow + 1)
 
-    WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+    WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
     WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_username'), data.internallyGetValue(
             'demo_usn', index))
@@ -59,3 +59,9 @@ long ts2 = System.currentTimeMillis()
 println(('Loading time ' + ((ts2 - ts1) / 1000)) + ' seconds.')
 
 WebUI.comment(('Loading time ' + ((ts2 - ts1) / 1000)) + '!')
+
+
+
+
+
+

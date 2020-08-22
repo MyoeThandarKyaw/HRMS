@@ -3,7 +3,7 @@
    <description></description>
    <name>div_My direct reportsAny employees</name>
    <tag></tag>
-   <elementGuidId>d0242669-ee65-40f2-bf1c-d1c093015945</elementGuidId>
+   <elementGuidId>0bfa1ae5-9670-4d4a-9c27-3ed9944d9402</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed ng-tns-0-2&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/app-new-manual-time-clock[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/form[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]</value>
+      <value>/html[1]/body[@class=&quot;sidebar-mini sidebar-open layout-fixed ng-tns-0-2&quot;]/app-root[1]/app-main[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/app-new-manual-time-clock[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
