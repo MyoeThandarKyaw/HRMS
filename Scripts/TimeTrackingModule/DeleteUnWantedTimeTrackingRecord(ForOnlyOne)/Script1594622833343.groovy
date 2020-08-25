@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
 WebUI.setText(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/input_HRMS_username'), 
-    'miemie')
+    'linlinhtun')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/DeleteUnwantedTimeTrackingRecords/DeleteUnWantedTimeTrackingRecord(ForOnlyOne)/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
