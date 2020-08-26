@@ -42,58 +42,50 @@ public class CheckApprovalStatus {
 		List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
 		String ExpectedValue = msg
+		int columns_count = 0
 
 		int rows_count = rows_table.size()
 		boolean is_ok=false;
-		println('rows_count ' + rows_count)
+		//println('rows_count ' + rows_count)
 
-		println('ExpectedValue--------- ' + ExpectedValue +"-------")
+		//println('ExpectedValue--------- ' + ExpectedValue +"-------")
 
-		if(rows_count >0){
-			Loop:for (int row = 0; row < rows_count; row++) {
+		if (rows_count > 0) {
+			Loop: for (int row = 0; row < rows_count; row++) {
 				List<WebElement> Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 
-				int columns_count = Columns_row.size()
+				columns_count = Columns_row.size()
 
-				//println((('Number of Cells In Row ' + row) + ' are ') + columns_count)
+				//println('columns_count ' + columns_count)
 
-				ColumnLoop:for (int column = 0; column < columns_count; column++) {
-					String celltext = Columns_row.get(9).getText()
+				if (columns_count > 0) {
+					//println((('Number of Cells In Row ' + row) + ' are ') + columns_count)
+					ColumnLoop: for (int column = 0; column < columns_count; column++) {
+						String celltext = Columns_row.get(9).getText()
 
-					//println((((('Cell Value of row number ' + row) + ' and column number ') + column) + ' IS ') + celltext)
-					println('celltext--------- ' + celltext +"-------")
-					if(celltext.length()>0){
+						//println((((('Cell Value of row number ' + row) + ' and column number ') + column) + ' IS ') + celltext)
+						//println(('celltext--------- ' + celltext) + '-------')
+
 						if (celltext.contains(ExpectedValue)) {
-							is_ok=true;
+							is_ok = true
+						} else {
+							is_ok = false
 
-							//println('Text present Manager Approval is ' + celltext)
-							// println('Text present in row number 3 is: ' + Columns_row.get(2).getText())
-
-							ColumnLoop: break
-						}else{
-							is_ok=false;
-							Loop: break
-
+							break
 						}
-
 					}
-
-
 				}
 			}
-			if(is_ok){
-				println('All result are  ok!')
-
-			}else{
-				println('All result are not ok!')
-			}
-		}else{
-			println("No data to test!")
 		}
 
-
-
+		if (!(columns_count > 0)) {
+			println('No Data to test!!!')
+		} else {
+			if (is_ok) {
+				println('All results are ok!!!')
+			} else {
+				println('All results are not ok!!!')
+			}
+		}
 	}
-
 }
-
