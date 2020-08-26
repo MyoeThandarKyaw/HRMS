@@ -3,11 +3,11 @@
    <description></description>
    <name>div_New manual entries</name>
    <tag></tag>
-   <elementGuidId>cb8d9570-edb7-43ce-bc1b-9f0672e6d9db</elementGuidId>
+   <elementGuidId>ad5f5eb6-cb5c-4c34-9374-1259c87b1211</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='accordion']/div/div</value>
+         <value>//div[@id='accordion']/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,13 +18,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>card-header</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,41 +31,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]</value>
+      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='accordion']/div/div</value>
+      <value>//div[@id='accordion']/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time entry log'])[3]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time entry log'])[3]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[2]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[2]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show entries from'])[1]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show entries from'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div</value>
+      <value>//div/div/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,11 +3,11 @@
    <description></description>
    <name>div_Rejected</name>
    <tag></tag>
-   <elementGuidId>0bfd92a9-d105-41e4-a611-7714bf08959c</elementGuidId>
+   <elementGuidId>5d3d6d1a-dd76-4b44-9dfc-6123d4a46e37</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='accordion']/div/div[2]/div/div[5]/div/ng-multiselect-dropdown/div/div[2]/ul[2]/li[2]/div</value>
+         <value>//div[@id='accordion']/div/div[2]/div/div[3]/div/ng-multiselect-dropdown/div/div[2]/ul[2]/li[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-body pb-0&quot;]/div[@class=&quot;row mb-0&quot;]/div[@class=&quot;col-lg-3 col-md-3 col-sm-3&quot;]/div[@class=&quot;form-group&quot;]/ng-multiselect-dropdown[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/div[@class=&quot;dropdown-list&quot;]/ul[@class=&quot;item2&quot;]/li[@class=&quot;multiselect-item-checkbox ng-star-inserted&quot;]/div[1]</value>
+      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-body pb-0&quot;]/div[@class=&quot;row mb-2&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;form-group&quot;]/ng-multiselect-dropdown[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/div[@class=&quot;dropdown-list&quot;]/ul[@class=&quot;item2&quot;]/li[@class=&quot;multiselect-item-checkbox ng-star-inserted&quot;]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='accordion']/div/div[2]/div/div[5]/div/ng-multiselect-dropdown/div/div[2]/ul[2]/li[2]/div</value>
+      <value>//div[@id='accordion']/div/div[2]/div/div[3]/div/ng-multiselect-dropdown/div/div[2]/ul[2]/li[2]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,14 +59,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bypassed'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[1]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -3,7 +3,7 @@
    <description></description>
    <name>p_Time entry log</name>
    <tag></tag>
-   <elementGuidId>9692bf91-ad36-47ec-9735-5737f0a7095a</elementGuidId>
+   <elementGuidId>2923c50a-cb07-4dd2-b54e-70fbb151f055</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -52,14 +52,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='HR'])[1]/preceding::p[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supvr.'])[1]/preceding::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MY COMPANY'])[1]/preceding::p[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HR'])[1]/preceding::p[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

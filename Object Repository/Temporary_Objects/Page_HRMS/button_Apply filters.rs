@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Apply filters</name>
    <tag></tag>
-   <elementGuidId>3e071da5-4480-4a08-a0ea-4edc5e6e8df7</elementGuidId>
+   <elementGuidId>ddd159fe-b199-4e06-b4b0-ed88ce4c4330</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -67,6 +67,13 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='accordion']/div/div[3]/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entry date'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

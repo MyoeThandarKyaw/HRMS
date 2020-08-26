@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Approval</name>
+   <name>div_Pending</name>
    <tag></tag>
-   <elementGuidId>f5322949-d0d5-4b2c-b67b-ad5f505e6287</elementGuidId>
+   <elementGuidId>816a2364-37b4-4c57-8932-00edd9b2a003</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='accordion']/div/div[2]/div/div[4]/div/ng-multiselect-dropdown/div/div/span</value>
+         <value>//div[@id='accordion']/div/div[2]/div/div[3]/div/ng-multiselect-dropdown/div/div[2]/ul[2]/li[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,62 +17,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>dropdown-btn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Approval</value>
+      <value>Pending</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-body pb-0&quot;]/div[@class=&quot;row mb-0&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;form-group&quot;]/ng-multiselect-dropdown[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/div[1]/span[@class=&quot;dropdown-btn&quot;]</value>
+      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-body pb-0&quot;]/div[@class=&quot;row mb-2&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;form-group&quot;]/ng-multiselect-dropdown[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/div[@class=&quot;dropdown-list&quot;]/ul[@class=&quot;item2&quot;]/li[@class=&quot;multiselect-item-checkbox ng-star-inserted&quot;]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='accordion']/div/div[2]/div/div[4]/div/ng-multiselect-dropdown/div/div/span</value>
+      <value>//div[@id='accordion']/div/div[2]/div/div[3]/div/ng-multiselect-dropdown/div/div[2]/ul[2]/li[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rejected'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select All'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pending']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ng-multiselect-dropdown/div/div/span</value>
+      <value>//li[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>

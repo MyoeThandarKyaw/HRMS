@@ -41,11 +41,11 @@ WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/To_Get
 
 //WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/To_Get_All_Rows_In_Time_Entry_Log/Page_HRMS/span_100'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/To_Get_All_Rows_In_Time_Entry_Log/Page_HRMS/span_Approval_dropdown-down'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/To_Get_All_Rows_In_Time_Entry_Log/Page_HRMS/span_Select'))
 
-//WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/To_Get_All_Rows_In_Time_Entry_Log/Page_HRMS/div_Approved'))
+//WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/To_Get_All_Rows_In_Time_Entry_Log/Page_HRMS/div_Rejected'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/To_Get_All_Rows_In_Time_Entry_Log/Page_HRMS/div_Approved'))
 
 WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/To_Get_All_Rows_In_Time_Entry_Log/Page_HRMS/div_New manual entries'))
 
@@ -57,7 +57,7 @@ WebElement Table = driver.findElement(By.xpath('/html/body/app-root/app-main/div
 
 List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
-String ExpectedValue = 'Rejected'
+String ExpectedValue = 'Approved'
 
 int rows_count = rows_table.size()
 

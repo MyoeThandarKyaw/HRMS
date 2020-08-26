@@ -3,7 +3,7 @@
    <description></description>
    <name>div_New manual entries</name>
    <tag></tag>
-   <elementGuidId>8c5c7daa-a9e6-4054-89aa-a3ef2dad50c9</elementGuidId>
+   <elementGuidId>5f801f05-06fe-4fd0-8493-562e289b4a8a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

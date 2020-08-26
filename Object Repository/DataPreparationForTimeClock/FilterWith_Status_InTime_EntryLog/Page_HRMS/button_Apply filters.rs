@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Apply filters</name>
    <tag></tag>
-   <elementGuidId>985cb038-1764-470a-a34b-1df4991190b1</elementGuidId>
+   <elementGuidId>368b8bd8-5825-4005-bc69-40ffae41e637</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary pull-right</value>
+      <value>btn btn-primary pull-right btn-sm</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-footer&quot;]/div[@class=&quot;col-sm-12&quot;]/button[@class=&quot;btn btn-primary pull-right&quot;]</value>
+      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-footer&quot;]/div[@class=&quot;col-sm-12&quot;]/button[@class=&quot;btn btn-primary pull-right btn-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='None Required'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entry date'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

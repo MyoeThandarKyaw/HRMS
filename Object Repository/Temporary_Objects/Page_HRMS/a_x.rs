@@ -3,11 +3,11 @@
    <description></description>
    <name>a_x</name>
    <tag></tag>
-   <elementGuidId>7f9e7de3-1cb2-43a3-80e5-f111926028cf</elementGuidId>
+   <elementGuidId>000943d2-6d3d-4a07-9422-0530e55f03f6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='accordion']/div/div[2]/div/div[4]/div/ng-multiselect-dropdown/div/div/span/span/a</value>
+         <value>//div[@id='accordion']/div/div[2]/div/div[3]/div/ng-multiselect-dropdown/div/div/span/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-body pb-0&quot;]/div[@class=&quot;row mb-0&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;form-group&quot;]/ng-multiselect-dropdown[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/div[1]/span[@class=&quot;dropdown-btn&quot;]/span[@class=&quot;selected-item ng-star-inserted&quot;]/a[1]</value>
+      <value>id(&quot;accordion&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;card-body pb-0&quot;]/div[@class=&quot;row mb-2&quot;]/div[@class=&quot;col-md-3&quot;]/div[@class=&quot;form-group&quot;]/ng-multiselect-dropdown[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/div[1]/span[@class=&quot;dropdown-btn&quot;]/span[@class=&quot;selected-item ng-star-inserted&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='accordion']/div/div[2]/div/div[4]/div/ng-multiselect-dropdown/div/div/span/span/a</value>
+      <value>//div[@id='accordion']/div/div[2]/div/div[3]/div/ng-multiselect-dropdown/div/div/span/span/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -31,55 +31,54 @@ WebUI.setText(findTestObject('Object Repository/DataPreparationForTimeClock/Filt
 WebUI.setEncryptedText(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/button_Login'))
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/p_Time entry log'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/span_Approval'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/span_Select'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/div_Approved'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/div_Approved'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/div_New manual entries'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/div_New manual entries'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/button_Apply filters'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/button_Apply filters'))
 
 CustomKeywords.'custom_function.CheckApprovalStatus.CheckStatus'('Approved')
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/All_EmployeeDirectly_with_ByPass_Supivor_Approval/Page_HRMS/a_x'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/a_x'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/span_Approval'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/span_Select'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/All_EmployeeDirectly_with_ByPass_Supivor_Approval/Page_HRMS/div_Rejected'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/div_Rejected'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/div_New manual entries'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/div_New manual entries'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/button_Apply filters'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/button_Apply filters'))
 
 CustomKeywords.'custom_function.CheckApprovalStatus.CheckStatus'('Rejected')
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/All_EmployeeDirectly_with_ByPass_Supivor_Approval/Page_HRMS/a_x'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/a_x'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/span_Approval'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/span_Select'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/All_EmployeeDirectly_with_ByPass_Supivor_Approval/Page_HRMS/div_Pending'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/div_Pending'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/div_New manual entries'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/div_New manual entries'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/button_Apply filters'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/button_Apply filters'))
 
 CustomKeywords.'custom_function.CheckApprovalStatus.CheckStatus'('Pending')
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/All_EmployeeDirectly_with_ByPass_Supivor_Approval/Page_HRMS/a_x'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/a_x'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/span_Approval'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/span_Select'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/All_EmployeeDirectly_with_ByPass_Supivor_Approval/Page_HRMS/div_-'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/div_-'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/div_New manual entries'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/div_New manual entries'))
 
-WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Check_Approval_Status/Page_HRMS/button_Apply filters'))
+WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/FilterWith_Status_InTime_EntryLog/Page_HRMS/button_Apply filters'))
 
 CustomKeywords.'custom_function.CheckApprovalStatus.CheckStatus'('-')
-
