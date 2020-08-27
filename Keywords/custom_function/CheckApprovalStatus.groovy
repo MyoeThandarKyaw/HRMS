@@ -65,13 +65,14 @@ public class CheckApprovalStatus {
 
 						//println((((('Cell Value of row number ' + row) + ' and column number ') + column) + ' IS ') + celltext)
 						//println(('celltext--------- ' + celltext) + '-------')
+						if(!celltext.equals('')){
+							if (celltext.contains(ExpectedValue)) {
+								is_ok = true
+							} else {
+								is_ok = false
 
-						if (celltext.contains(ExpectedValue)) {
-							is_ok = true
-						} else {
-							is_ok = false
-
-							break
+								break
+							}
 						}
 					}
 				}
