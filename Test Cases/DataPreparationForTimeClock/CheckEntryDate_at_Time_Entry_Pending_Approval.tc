@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckEntryDate_at_Time_Entry_Pending_Approval</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e711c821-56f7-4806-bf3c-147dbbc3b1fb</testCaseGuid>
+</TestCaseEntity>
