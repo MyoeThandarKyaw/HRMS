@@ -67,3 +67,93 @@ WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_Ne
 
 WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/button_Apply filters'))
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
+
+WebUI.setText(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_HRMS_username'), 'miemie')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/p_Time entry log'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/span_Select'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_Approved'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_New manual entries'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/button_Apply filters'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/a_x'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/span_Select'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_Rejected'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_New manual entries'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/button_Apply filters'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/a_x'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/span_Select'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_Pending'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_New manual entries'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/button_Apply filters'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/a_x'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/span_Select'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_-'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_New manual entries'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/button_Apply filters'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
+
+WebUI.setText(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_HRMS_username'), 'linlinhtun')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/p_Time entry pending approval'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_Me_dateRange'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/button_Custom range'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/td_25'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_Me_dateRange'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/td_27'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_Me_dateRange'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/td_24'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/div_TodayYesterdayLast 7 daysLast 30 daysTh_906ee6'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_Me_dateRange'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/td_25'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_Me_dateRange'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/td_23'))
+
+WebUI.click(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/input_Me_dateRange'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Temporary_Objects/Page_HRMS/td_22'))
+

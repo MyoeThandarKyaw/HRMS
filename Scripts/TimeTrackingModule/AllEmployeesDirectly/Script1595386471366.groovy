@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testdata.InternalData as InternalData
+InternalData data = findTestData('Reject_Data')
+for (def index : (0..data.getRowNumbers())) {
 
 WebUI.openBrowser('')
 
@@ -57,5 +60,5 @@ WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/Pag
 
 WebUI.click(findTestObject('Object Repository/AllEmployeesDirectly/Page_HRMS/Page_HRMS/button_Save  View'))
 
-
+}
 
