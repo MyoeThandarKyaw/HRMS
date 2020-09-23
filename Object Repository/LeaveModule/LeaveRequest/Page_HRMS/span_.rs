@@ -3,7 +3,7 @@
    <description></description>
    <name>span_</name>
    <tag></tag>
-   <elementGuidId>8c945aa1-20a4-402e-ac28-bfe9adde44f4</elementGuidId>
+   <elementGuidId>e03ed192-9197-404f-8094-245d6a87251d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Request Leave</name>
+   <name>p_Request leave</name>
    <tag></tag>
-   <elementGuidId>08b16ed6-3964-4839-96fe-f4d6cc596bb7</elementGuidId>
+   <elementGuidId>b0e8d2f6-acee-4766-9ebc-345e24df3e32</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Request Leave </value>
+      <value> Request leave </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daw Phwe'])[1]/following::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ya Mone Kha'])[1]/following::p[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Request Leave']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Request leave']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

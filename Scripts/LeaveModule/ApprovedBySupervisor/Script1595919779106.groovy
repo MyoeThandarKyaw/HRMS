@@ -9,7 +9,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+//import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/Page_HRMS/input_HRMS_username'), 'mayzin')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/Page_HRMS/input_HRMS_username'), 'sma')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/P
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/Page_HRMS/span_14'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/Page_HRMS/p_Leave pending approval'))
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/Page_HRMS/button_Approve'))
 

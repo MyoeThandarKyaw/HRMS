@@ -9,7 +9,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+//import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/Choose
 WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseEmployeeAndApproveAll_Request/Page_HRMS/p_Time entry pending approval'))
 
 WebUI.setText(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseEmployeeAndApproveAll_Request/Page_HRMS/input_Showingemployeesrecords_mat-input-4'), 
-    'Phyo Yadana Kyaw Win')
+    'Kyaw Kyaw Zin')
 
 WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseEmployeeAndApproveAll_Request/Page_HRMS/button_Approve'))
 
