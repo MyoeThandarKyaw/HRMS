@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-select[@id='mat-select-1']/div/div/span</value>
+         <value>//div[2]/mat-form-field/div/div/div/mat-select/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

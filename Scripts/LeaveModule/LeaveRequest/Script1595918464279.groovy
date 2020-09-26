@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_username'), 'winthein')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_username'), 'sawsanlin')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
 
@@ -35,10 +35,9 @@ WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Leave Without Pay(5 days)'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_Leave Type_dateRange'))
-
-WebUI.doubleClick(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/td_3'))
-
+//WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_Leave Type_dateRange'))
+//
+//WebUI.doubleClick(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/td_3'))
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_Second Half_mat-input-2'))
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Kyawt Kalyar Tin'))
@@ -47,6 +46,4 @@ WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HR
     '-to attend business management')
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/button_Submit'))
-
-WebUI.delay(4)
 
