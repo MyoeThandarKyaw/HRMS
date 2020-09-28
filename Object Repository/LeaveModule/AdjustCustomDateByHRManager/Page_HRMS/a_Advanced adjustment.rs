@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Advanced adjustment</name>
    <tag></tag>
-   <elementGuidId>05e3c325-5b1c-4e1f-bab8-6049c143badc</elementGuidId>
+   <elementGuidId>cd687bac-3e69-42f2-87a9-5155727463d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -80,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Min Bo Bo Thein'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saw Mya Aye'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

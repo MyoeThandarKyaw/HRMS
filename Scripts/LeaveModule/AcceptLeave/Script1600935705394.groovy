@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/input_HRMS_username'), 'haymarkyawwin')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/input_HRMS_username'), 'miemie')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
@@ -31,9 +31,8 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/p_Leave pending approval'))
 
-WebUI.mouseOverOffset(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/button_Toggle Dropdown'),
-	20, 30)
-
+WebUI.mouseOverOffset(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/button_Toggle Dropdown'), 
+    20, 30)
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/button_Toggle Dropdown'))
 

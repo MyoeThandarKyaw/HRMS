@@ -3,7 +3,7 @@
    <description></description>
    <name>svg_To_mat-datepicker-toggle-default-icon n_bde48d</name>
    <tag></tag>
-   <elementGuidId>e919820b-abae-4821-b329-6debea01ea2d</elementGuidId>
+   <elementGuidId>d4aa1cf6-c51d-4e64-ba84-93e3059997b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -31,8 +31,6 @@ WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRMa
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRManager/Page_HRMS/p_Leave pending approval'))
-WebUI.mouseOverOffset(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRManager/Page_HRMS/button_Toggle Dropdown'),
-	20, 30)
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRManager/Page_HRMS/button_Toggle Dropdown'))
 
@@ -40,9 +38,13 @@ WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRMa
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRManager/Page_HRMS/button_Add leave adjustment'))
 
+//WebUI.click(findTestObject('LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/svg_From_mat-datepicker-toggle-default-icon ng-star-inserted'))
+//
+//WebUI.click(findTestObject('LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/td_27'))
+
 WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRManager/Page_HRMS/svg_To_mat-datepicker-toggle-default-icon n_bde48d'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRManager/Page_HRMS/div_27'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRManager/Page_HRMS/div_29'))
 
 WebUI.setText(findTestObject('Object Repository/LeaveModule/AdjustCustomDateByHRManager/Page_HRMS/textarea_Duration_note'), 
     'HR Manager would like to adjust the request date for employee. Because the employee\'s request date contains continuous off day leave.')

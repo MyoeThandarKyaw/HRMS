@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Add leave adjustment</name>
    <tag></tag>
-   <elementGuidId>eb3e2feb-93fb-48ff-9179-f5556991e6bf</elementGuidId>
+   <elementGuidId>12f8a1ae-4e5b-43dc-8e5a-2e2d6255a520</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -52,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kyaw Kyaw Zin'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saw Mya Aye'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

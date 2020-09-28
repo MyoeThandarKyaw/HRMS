@@ -8,19 +8,16 @@
    <dataFileGUID>ac656978-a616-4585-bd8f-d7cd5cebaa04</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>htoohtootint root%40123</data>
-   <data>sma root%40123</data>
-   <data>yanaungphyo root%40123</data>
-   <data>kyawkyawzin root%40123</data>
+   <data>zayyarlin root%40123</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>4</size>
+      <size>1</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>4</size>
+      <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

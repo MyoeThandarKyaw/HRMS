@@ -3,7 +3,7 @@
    <description></description>
    <name>p_Leave pending approval</name>
    <tag></tag>
-   <elementGuidId>74a3123b-22af-40e0-a068-a0712b26d0aa</elementGuidId>
+   <elementGuidId>6cbcfabf-8c63-4e71-a202-12065b4bc929</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
