@@ -17,9 +17,9 @@
       <testCaseId>Test Cases/LeaveModule/LeaveRequest</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>42eb0a8e-c1d7-4fa5-8d99-1defe366b109</guid>
+      <guid>71199082-8043-4b8b-b098-59752d6a56e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LeaveModule/ApprovedBySupervisor</testCaseId>
+      <testCaseId>Test Cases/LeaveModule/RejectByHRManager</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

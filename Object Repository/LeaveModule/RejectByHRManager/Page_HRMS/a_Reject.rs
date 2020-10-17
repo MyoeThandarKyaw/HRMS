@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@type='button'])[2]</value>
+         <value>//a[contains(text(),'Reject')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

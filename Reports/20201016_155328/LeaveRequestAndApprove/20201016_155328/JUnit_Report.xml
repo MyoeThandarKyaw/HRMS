@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LeaveRequestAndApprove" time="46.502" tests="2" failures="0" errors="0">
+   <testsuite name="LeaveRequestAndApprove" tests="2" failures="0" errors="0" time="46.502" timestamp="2020-10-16 15:53:30" hostname="LENOVO - DESKTOP-QICBNPV" id="Test Suites/LeaveRequestAndApprove">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\TESTING\\AUTOMATION_TESTING\\HRMS\\Reports\\20201016_155328\\LeaveRequestAndApprove\\20201016_155328"/>
+         <property name="logFiles" value="D:\\TESTING\\AUTOMATION_TESTING\\HRMS\\Reports\\20201016_155328\\LeaveRequestAndApprove\\20201016_155328\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-QICBNPV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 86.0.4240.75"/>
+         <property name="hostAddress" value="192.168.101.9"/>
+         <property name="sessionId" value="775c5062220c2fda33fa0a5f9748b24c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LeaveModule/LeaveRequest" time="25.718" classname="Test Cases/LeaveModule/LeaveRequest" status="PASSED">
+         <system-out><![CDATA[2020-10-16 15:53:31 - [TEST_CASE][PASSED] - Test Cases/LeaveModule/LeaveRequest: Test Cases/LeaveModule/LeaveRequest
+
+2020-10-16 15:53:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-16 15:53:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-16 15:53:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-10-16 15:53:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-16 15:53:36 - [TEST_STEP][PASSED] - navigateToUrl("https://test.ahtaroo.com/#/login"): Navigate to 'https://test.ahtaroo.com/#/login' successfully
+
+2020-10-16 15:53:47 - [MESSAGE][PASSED] - Navigate to 'https://test.ahtaroo.com/#/login' successfully
+
+2020-10-16 15:53:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_username"), "htoohtootint"): Text 'htoohtootint' is set on object 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_username'
+
+2020-10-16 15:53:47 - [MESSAGE][PASSED] - Text 'htoohtootint' is set on object 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_username'
+
+2020-10-16 15:53:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_password"), "root@123"): Text 'root@123' is set on object 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_password'
+
+2020-10-16 15:53:48 - [MESSAGE][PASSED] - Text 'root@123' is set on object 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_password'
+
+2020-10-16 15:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/LeaveRequest/Page_HRMS/button_Login")): Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/button_Login' is clicked on
+
+2020-10-16 15:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/button_Login' is clicked on
+
+2020-10-16 15:53:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-16 15:53:51 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-16 15:53:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/LeaveRequest/Page_HRMS/p_Request leave")): Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/p_Request leave' is clicked on
+
+2020-10-16 15:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/p_Request leave' is clicked on
+
+2020-10-16 15:53:51 - [TEST_STEP][PASSED] - click(findTestObject("LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/button_Request leave")): Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/button_Request leave' is clicked on
+
+2020-10-16 15:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/button_Request leave' is clicked on
+
+2020-10-16 15:53:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_")): Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_' is clicked on
+
+2020-10-16 15:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_' is clicked on
+
+2020-10-16 15:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Leave Without Pay(5 days)")): Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Leave Without Pay(5 days)' is clicked on
+
+2020-10-16 15:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Leave Without Pay(5 days)' is clicked on
+
+2020-10-16 15:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/input_Second Half_mat-input-3")): Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/input_Second Half_mat-input-3' is clicked on
+
+2020-10-16 15:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/input_Second Half_mat-input-3' is clicked on
+
+2020-10-16 15:53:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Kyawt Kalyar Tin")): Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Kyawt Kalyar Tin' is clicked on
+
+2020-10-16 15:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Kyawt Kalyar Tin' is clicked on
+
+2020-10-16 15:53:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/Page_HRMS/textarea_Relieving person_leaveReason"), "-to attend business management"): Text '-to attend business management' is set on object 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/Page_HRMS/textarea_Relieving person_leaveReason'
+
+2020-10-16 15:53:56 - [MESSAGE][PASSED] - Text '-to attend business management' is set on object 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/Page_HRMS/textarea_Relieving person_leaveReason'
+
+2020-10-16 15:53:56 - [TEST_STEP][PASSED] - click(findTestObject("LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/button_Submit")): Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/button_Submit' is clicked on
+
+2020-10-16 15:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeaveModule/RejectByHRManager" time="19.665" classname="Test Cases/LeaveModule/RejectByHRManager" status="PASSED">
+         <system-out><![CDATA[2020-10-16 15:53:56 - [TEST_CASE][PASSED] - Test Cases/LeaveModule/RejectByHRManager: Test Cases/LeaveModule/RejectByHRManager
+
+2020-10-16 15:53:56 - [TEST_STEP][PASSED] - data = findTestData("Reject_Data"): null
+
+2020-10-16 15:53:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-16 15:53:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-16 15:53:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-16 15:54:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-16 15:54:01 - [TEST_STEP][PASSED] - navigateToUrl("https://test.ahtaroo.com/#/login"): Navigate to 'https://test.ahtaroo.com/#/login' successfully
+
+2020-10-16 15:54:09 - [MESSAGE][PASSED] - Navigate to 'https://test.ahtaroo.com/#/login' successfully
+
+2020-10-16 15:54:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_username"), "laewahwintmaung"): Text 'laewahwintmaung' is set on object 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_username'
+
+2020-10-16 15:54:10 - [MESSAGE][PASSED] - Text 'laewahwintmaung' is set on object 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_username'
+
+2020-10-16 15:54:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_password"), "tR+yPLK5N5TO48zpsW01Kw=="): Text ****** has been set on object 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_password'
+
+2020-10-16 15:54:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_password'
+
+2020-10-16 15:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Login")): Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Login' is clicked on
+
+2020-10-16 15:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Login' is clicked on
+
+2020-10-16 15:54:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-16 15:54:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-16 15:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/p_Leave pending approval")): Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/p_Leave pending approval' is clicked on
+
+2020-10-16 15:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/p_Leave pending approval' is clicked on
+
+2020-10-16 15:54:13 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject")): Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject' is hovered
+
+2020-10-16 15:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject' is hovered
+
+2020-10-16 15:54:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject")): Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject' is clicked on
+
+2020-10-16 15:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject' is clicked on
+
+2020-10-16 15:54:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/textarea_concat(id(  mat-input-3  ))_mat-input-3"), "check leave type"): Text 'check leave type' is set on object 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/textarea_concat(id(  mat-input-3  ))_mat-input-3'
+
+2020-10-16 15:54:16 - [MESSAGE][PASSED] - Text 'check leave type' is set on object 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/textarea_concat(id(  mat-input-3  ))_mat-input-3'
+
+2020-10-16 15:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Confirm")): Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Confirm' is clicked on
+
+2020-10-16 15:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Confirm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-16 15:53:30 - [TEST_SUITE][PASSED] - LeaveRequestAndApprove: Test Cases/LeaveModule/RejectByHRManager]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

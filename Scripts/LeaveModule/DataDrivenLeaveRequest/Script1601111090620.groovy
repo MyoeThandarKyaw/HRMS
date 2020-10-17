@@ -20,39 +20,41 @@ import com.kms.katalon.core.testdata.InternalData as InternalData
 InternalData data = findTestData('LeaveRequestData')
 
 for (def index : (0..data.getRowNumbers() - 1)) {
-WebUI.openBrowser('')
+    WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
+    WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_username'), data.internallyGetValue(
-	'username', index))
+    WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_username'), data.internallyGetValue(
+            'username', index))
 
-WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_password'), data.internallyGetValue(
-	'password', index))
+    WebUI.setText(findTestObject('Object Repository/CallTestCases/LoginTestCase/Page_HRMS/input_HRMS_password'), data.internallyGetValue(
+            'password', index))
 
-//WebUI.setText(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/input_HRMS_username'), 'suhninhtet')
-//
-//WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/input_HRMS_password'), 
-//    'tR+yPLK5N5TO48zpsW01Kw==')
+    //WebUI.setText(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/input_HRMS_username'), 'suhninhtet')
+    //
+    //WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/input_HRMS_password'), 
+    //    'tR+yPLK5N5TO48zpsW01Kw==')
+    WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/button_Login'))
+    WebUI.maximizeWindow()
 
-WebUI.maximizeWindow()
+    WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/p_Request leave'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/p_Request leave'))
+    WebUI.click(findTestObject('LeaveModule/DataDrivenLeaveRequest/Page_HRMS/Page_HRMS/button_Request leave'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/span_'))
+    WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/span_'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/span_Casual Leave(3 days)'))
+    WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/span_Casual Leave(3 days)'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/input_Second Half_mat-input-2'))
+    WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/input_Second Half_mat-input-3'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/span_Lae Wah Wint Maung Maung'))
+    WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/span_Lae Wah Wint Maung Maung'))
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/textarea_Relieving person_leaveReason'), 
-    '-to take care family')
+    WebUI.setText(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/textarea_Relieving person_leaveReason'), 
+        '-to take care family')
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/DataDrivenLeaveRequest/Page_HRMS/button_Submit'))
+    WebUI.click(findTestObject('LeaveModule/DataDrivenLeaveRequest/Page_HRMS/Page_HRMS/button_Submit'))
 
-WebUI.waitForAlert(2)
+    WebUI.waitForAlert(2)
 }
+

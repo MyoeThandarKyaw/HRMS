@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/Page_HRMS/input_HRMS_username'), 'linlinhtun')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/Page_HRMS/input_HRMS_username'), 'phyokyaw')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/ApprovedBySupervisor/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')

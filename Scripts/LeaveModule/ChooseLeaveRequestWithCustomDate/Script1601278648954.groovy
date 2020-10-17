@@ -17,41 +17,44 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testdata.InternalData as InternalData
 
-InternalData data = findTestData('LeaveRequestData')
+InternalData data = findTestData('Reject_Data')
 
 for (def index : (0..data.getRowNumbers() - 1)) {
+    WebUI.openBrowser('')
 
-WebUI.openBrowser('')
+    WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
+    WebUI.setText(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/input_HRMS_username'), 
+        data.internallyGetValue('username', index))
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/input_HRMS_username'), 
-    data.internallyGetValue('username', index))
+    WebUI.setText(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/input_HRMS_password'), 
+        data.internallyGetValue('password', index))
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/input_HRMS_password'), 
-    data.internallyGetValue('password', index))
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/button_Login'))
+    WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/p_Request leave'))
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/p_My leave'))
 
-WebUI.maximizeWindow()
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/button_Request leave'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/input_Leave Type_dateRange'))
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/div_Full day_mat-select-arrow_1'))
 
-WebUI.doubleClick(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/td_29'))
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/span_Earned(9 days available)'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/input_Second Half_mat-input-2'))
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/svg_Leave type_mat-datepicker-toggle-defaul_4c1e26'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/span_Lae Wah Wint Maung Maung'))
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/div_19'))
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/textarea_Relieving person_leaveReason'), 
-    '-to take a trip with a family')
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/div_20'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/span_'))
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/input_Second half_mat-input-3'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/span_Casual Leave(3 days)'))
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/span_Phyo Kyaw'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ChooseLeaveRequestWithCustomDate/Page_HRMS/button_Submit'))
+    WebUI.setText(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/textarea_Optional_leaveReason'), 
+        '-to take care family')
 
+    WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/button_Submit'))
 }
+

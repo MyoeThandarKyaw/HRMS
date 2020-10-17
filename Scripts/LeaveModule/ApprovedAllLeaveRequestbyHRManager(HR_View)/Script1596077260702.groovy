@@ -9,7 +9,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+//import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -18,28 +18,24 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testdata.InternalData as InternalData
 
+InternalData data = findTestData('LeaveRequestData')
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.click(findTestObject('Object Repository/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/form_Login'))
+WebUI.setText(findTestObject('Object Repository/LeaveModule/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/input_HRMS_username'), 
+    'haymarkyawwin')
 
-WebUI.setText(findTestObject('Object Repository/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/input_HRMS_username'), 
-    'wwhHlaing')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/input_HRMS_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/button_Login'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/button_Login'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/span_Leave Request (HR)'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/p_Leave pending approval'))
+for (def index : (0..data.getRowNumbers())) {
+WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/a_Approve'))
 
-InternalData data = findTestData('Login_Data')
-
-for (def index : (4..data.getRowNumbers() - 3)) {
-    WebUI.click(findTestObject('Object Repository/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/button_Approve'))
-
-    WebUI.click(findTestObject('Object Repository/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/button_Confirm'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedAllLeaveRequestbyHRManager(HR_View)/Page_HRMS/button_Confirm'))
 }

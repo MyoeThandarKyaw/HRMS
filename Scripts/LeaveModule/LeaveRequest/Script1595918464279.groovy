@@ -21,15 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_username'), 'sawsanlin')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_username'), 'zwekophyo')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_password'), 'root@123')
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/button_Login'))
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/p_Request leave'))
+
+WebUI.click(findTestObject('LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/button_Request leave'))
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_'))
 
@@ -38,12 +40,13 @@ WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS
 //WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_Leave Type_dateRange'))
 //
 //WebUI.doubleClick(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/td_3'))
-WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_Second Half_mat-input-2'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/input_Second Half_mat-input-3'))
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Kyawt Kalyar Tin'))
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/textarea_Relieving person_leaveReason'), 
+//WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/span_Kyawt Kalyar Tin'), 'Go to SSB Office')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/Page_HRMS/textarea_Relieving person_leaveReason'), 
     '-to attend business management')
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/button_Submit'))
+WebUI.click(findTestObject('LeaveModule/LeaveRequest/Page_HRMS/Page_HRMS/button_Submit'))
 
