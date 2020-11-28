@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
+WebUI.navigateToUrl('https://test.ahtaroo.com/')
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_username'), 'zwekophyo')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_username'), 'htunlukhant')
 
 WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequest/Page_HRMS/input_HRMS_password'), 'root@123')
 

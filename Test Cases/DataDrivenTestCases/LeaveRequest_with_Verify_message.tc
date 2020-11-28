@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LeaveRequest_with_Verify_message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e00ddd44-ef85-4138-8725-df0973df8567</testCaseGuid>
+</TestCaseEntity>

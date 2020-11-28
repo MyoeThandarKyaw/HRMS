@@ -9,7 +9,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+//import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -19,47 +19,38 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/input_HRMS_username'), 'wwhHlaing')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/input_HRMS_username'), 
+    'minbobothein')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/input_HRMS_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/button_Login'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/button_Sign in'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/p_Leave Requests'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/a_My leave'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/button_Add New'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/button_Request leave'))
 
-WebUI.setText(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/input'), 'Daw Hsu Mon Win')
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/span_'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/span_Daw Hsu Mon Win'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/span_Casual(6 days available)'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/span_'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/input_Leave type_dateRange'))
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/input_Leave type_dateRange'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/span_Earn Leave'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/div_4'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/span_Full Day'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/input_Second half_mat-input-3'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/span_Full Day_1'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/span_Phyo Yadana Kyaw Win'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/input_Request Type_dateRange'))
+WebUI.setText(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/textarea_Optional_leaveReason'), 
+    '-to take care family')
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/td_13'))
-
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/td_13'))
-
-WebUI.setText(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/textarea_Leave Duration_leaveReason'), 
-    '-to attend the Cambridge University')
-
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/button_Add Leave'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/button_Save'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/ManualLeaveEntrywithDate/Page_HRMS/Page_HRMS/button_Submit'))
 

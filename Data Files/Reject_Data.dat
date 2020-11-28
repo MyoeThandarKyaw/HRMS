@@ -8,16 +8,17 @@
    <dataFileGUID>4d19fb86-13e3-4600-a2f7-ad64bc9b8d6c</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>sma root%40123</data>
+   <data>htooeaindralin root%40123</data>
+   <data>zwekophyo root%40123</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

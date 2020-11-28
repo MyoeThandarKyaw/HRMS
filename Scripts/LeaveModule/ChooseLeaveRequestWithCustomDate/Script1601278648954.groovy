@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testdata.InternalData as InternalData
 
-InternalData data = findTestData('Reject_Data')
+InternalData data = findTestData('Login_Data')
 
 for (def index : (0..data.getRowNumbers() - 1)) {
     WebUI.openBrowser('')
@@ -25,10 +25,10 @@ for (def index : (0..data.getRowNumbers() - 1)) {
     WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
     WebUI.setText(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/input_HRMS_username'), 
-        data.internallyGetValue('username', index))
+        data.internallyGetValue('demo_usn', index))
 
     WebUI.setText(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/input_HRMS_password'), 
-        data.internallyGetValue('password', index))
+        data.internallyGetValue('demo_pwd', index))
 
     WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/button_Login'))
 
@@ -56,5 +56,7 @@ for (def index : (0..data.getRowNumbers() - 1)) {
         '-to take care family')
 
     WebUI.click(findTestObject('Object Repository/DataPreparationForTimeClock/ChooseDateRange_And_Approve_Employee/Page_HRMS/Page_HRMS/button_Submit'))
+	
+	WebUI.delay(5)
 }
 

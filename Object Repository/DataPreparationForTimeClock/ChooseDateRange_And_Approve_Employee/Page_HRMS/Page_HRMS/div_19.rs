@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//sat-calendar[@id='sat-datepicker-1']/div/sat-month-view/table/tbody/tr[4]/td[4]/div</value>
+         <value>//sat-calendar[@id='sat-datepicker-1']/div/sat-month-view/table/tbody/tr[4]/td[6]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

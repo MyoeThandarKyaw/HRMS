@@ -59,3 +59,4 @@ long ts2 = System.currentTimeMillis()
 println(('Load duration: ' + ((ts2 - ts1) / 1000)) + ' seconds.')
 
 WebUI.comment(('Loading time ' + ((ts2 - ts1) / 1000)) + '!')
+

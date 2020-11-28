@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
+//import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://hrms.ahtaroo.com/#/login')
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/clockin')
 
-WebUI.setText(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/input_HRMS_username'), 'eieiPhyo')
+WebUI.setText(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/input_HRMS_username'), 'kophyo')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
@@ -33,7 +33,6 @@ WebUI.maximizeWindow()
 WebUI.click(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/a_Clock In'))
 
 //WebUI.focus(findTestObject('ManaualClockInRequest(Member)/Page_HRMS/button_Manual'))
-
 WebUI.click(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/button_Manual'))
 
 WebUI.click(findTestObject('ManaualClockInRequest(Member)/Page_HRMS/input'))
@@ -41,6 +40,8 @@ WebUI.click(findTestObject('ManaualClockInRequest(Member)/Page_HRMS/input'))
 WebUI.click(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/span_Binary Lab'))
 
 WebUI.setText(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/textarea_Reason_reason'), 'To attend meeting at Binary Lab Office')
+
+WebUI.scrollToElement(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/button_Submit'), 4)
 
 WebUI.click(findTestObject('Object Repository/ManaualClockInRequest(Member)/Page_HRMS/button_Submit'))
 
