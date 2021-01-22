@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -28,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/LeaveReques
     'tR+yPLK5N5TO48zpsW01Kw==')
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequestWithAttachments/Page_HRMS/button_Sign in'))
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequestWithAttachments/Page_HRMS/p_My leave'))
 
@@ -45,17 +48,11 @@ WebUI.setText(findTestObject('Object Repository/LeaveModule/LeaveRequestWithAtta
     '-to take care health')
 
 //WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequestWithAttachments/Page_HRMS/div_Click or drag images here to upload'))
-
 //WebUI.scrollToElement('Object Repository/LeaveModule/LeaveRequestWithAttachments/Page_HRMS/div_Click or drag images here to upload', 2)
-
 //WebUI.click('Object Repository/LeaveModule/LeaveRequestWithAttachments/Page_HRMS/div_Click or drag images here to upload')
-
-CustomKeywords.'upload.upload_attachment.uploadFile2'(findTestObject('Object Repository/LeaveModule/LeaveRequestWithAttachments/Page_HRMS/div_Click or drag images here to upload'),
-	'D:\\TESTING\\Testing_Image\\drill-150.png',
-	'D:\\TESTING\\Testing_Image\\drill-151.png',
-	'D:\\TESTING\\Testing_Image\\drill-153.png',
-	'D:\\TESTING\\Testing_Image\\drill-156.png',
-	'D:\\TESTING\\Testing_Image\\drill-157.png')
+CustomKeywords.'upload.upload_attachment.uploadFile2'(findTestObject('Object Repository/LeaveModule/LeaveRequestWithAttachments/Page_HRMS/div_Click or drag images here to upload'), 
+    'D:\\TESTING\\Testing_Image\\drill-150.png', 'D:\\TESTING\\Testing_Image\\drill-151.png', 'D:\\TESTING\\Testing_Image\\drill-153.png', 
+    'D:\\TESTING\\Testing_Image\\drill-156.png', 'D:\\TESTING\\Testing_Image\\drill-157.png')
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/LeaveRequestWithAttachments/Page_HRMS/button_Submit'))
 

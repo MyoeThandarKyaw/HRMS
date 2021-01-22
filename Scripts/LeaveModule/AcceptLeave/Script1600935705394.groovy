@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -41,6 +42,10 @@ WebUI.click(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager
 WebUI.click(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/button_Add leave adjustment'))
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/button_Save'))
+
+WebUI.scrollToPosition(100, 100)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AcceptLeaveByHRManager/Page_HRMS/button_Confirm'))
 

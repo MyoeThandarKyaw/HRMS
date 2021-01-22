@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='OTHER'])[1]/following::a[4]</value>
+         <value>//a[contains(@href, '#/leavelog')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
