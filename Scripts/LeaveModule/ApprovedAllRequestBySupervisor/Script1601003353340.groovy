@@ -16,6 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testdata.InternalData as InternalData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 InternalData data = findTestData('Reject_Data')
 
@@ -33,9 +34,13 @@ WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedAllRequestBySu
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedAllRequestBySupervisor/Page_HRMS/a_Leave pending approval'))
-
 for (def index : (0..data.getRowNumbers())) {
+    WebUI.click(findTestObject('LeaveModule/ApprovedAllRequestBySupervisor/Page_HRMS/Page_HRMS/p_Pending leave approvals'))
+
     WebUI.click(findTestObject('Object Repository/LeaveModule/ApprovedAllRequestBySupervisor/Page_HRMS/button_Approve'))
+
+    WebUI.delay(2)
+
+    System.out.println('' + data.getRowNumbers())
 }
 

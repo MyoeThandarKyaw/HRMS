@@ -20,29 +20,28 @@ import com.kms.katalon.core.testdata.InternalData as InternalData
 InternalData data = findTestData('Reject_Data')
 
 //for (def index : (0..data.getRowNumbers() - 1)) {
-    WebUI.openBrowser('')
+WebUI.openBrowser('')
 
-    WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-    WebUI.setText(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_username'), 
-        'sma')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_username'), 
+    'haymarkyawwin')
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_password'), 
-        'tR+yPLK5N5TO48zpsW01Kw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/input_HRMS_password'), 
+    'tR+yPLK5N5TO48zpsW01Kw==')
 
-    WebUI.click(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Login'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Login'))
 
-    WebUI.maximizeWindow()
+WebUI.maximizeWindow()
 
-    WebUI.click(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/p_Leave pending approval'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/p_Leave pending approval'))
 
-    WebUI.mouseOver(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject'))
+WebUI.mouseOver(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject'))
 
-    WebUI.click(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject'))
+WebUI.click(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/a_Reject'))
 
-    WebUI.setText(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/textarea_concat(id(  mat-input-3  ))_mat-input-3'), 
-        'check leave type')
+WebUI.setText(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/textarea_concat(id(  mat-input-3  ))_mat-input-3'), 
+    'check leave type')
 
-    WebUI.click(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Confirm'))
-//}
+WebUI.click(findTestObject('Object Repository/LeaveModule/RejectByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/button_Confirm'))
 
