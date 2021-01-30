@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/NewManualTimeClock_Out_My_Direct_R
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('NewManualTimeClock_Out_My_Direct_Report_by_HR_Manger/Page_HRMS/p_Time entry log'))
+WebUI.click(findTestObject('NewManualTimeClock_Out_My_Direct_Report_by_HR_Manger/Page_HRMS/Page_HRMS/p_Time log'))
 
 WebUI.click(findTestObject('Object Repository/NewManualTimeClock_Out_My_Direct_Report_by_HR_Manger/Page_HRMS/button_New Manual Entry'))
 
