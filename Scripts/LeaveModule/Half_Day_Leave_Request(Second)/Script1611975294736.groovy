@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
 WebUI.setText(findTestObject('Object Repository/LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/input_HRMS_username'), 
-    'yanaungphyo')
+    'htunlukhant')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/input_HRMS_password'), 
     'tR+yPLK5N5TO48zpsW01Kw==')
@@ -46,13 +46,12 @@ WebUI.click(findTestObject('Object Repository/LeaveModule/Half_Day_Leave_Request
 WebUI.click(findTestObject('Object Repository/LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/span_Casual(3.5 days available)'))
 
 //WebUI.click(findTestObject('Object Repository/LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/div_First half_mat-radio-outer-circle'))
+CustomKeywords.'custom_keyword_for_raido_button.clickUsingJS.click_radio_button'(findTestObject('Object Repository/LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/Page_HRMS/Page_HRMS/div_First half_mat-radio-outer-circle'), 
+    30)
 
+WebUI.click(findTestObject('LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/Page_HRMS/Page_HRMS/Page_HRMS/input_Second half_mat-input-3'))
 
-CustomKeywords.'custom_keyword_for_raido_button.clickUsingJS.click_radio_button'(findTestObject(
-'Object Repository/LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/Page_HRMS/Page_HRMS/div_First half_mat-radio-outer-circle'),
-	30)
 //WebUI.click(findTestObject('Object Repository/LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/Page_HRMS/div_First half_mat-radio-inner-circle'))
-
 WebUI.click(findTestObject('Object Repository/LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/span_Phyo Yadana Kyaw Win'))
 
 WebUI.setText(findTestObject('Object Repository/LeaveModule/Half_Day_Leave_Request(Second)/Page_HRMS/textarea_Optional_leaveReason'), 

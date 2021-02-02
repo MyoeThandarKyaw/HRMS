@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -35,20 +36,25 @@ WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustFromDateAndToDat
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/a_Advanced adjustment'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/button_Add leave adjustment'))
 
-WebUI.click(findTestObject('LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/svg_From_mat-datepicker-toggle-default-icon ng-star-inserted'))
+//WebUI.click(findTestObject('LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/Page_HRMS/div_Cancel_cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing'))
+//
+//WebUI.click(findTestObject('LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/Page_HRMS/div_13'))
+WebUI.click(findTestObject('LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/Page_HRMS/Page_HRMS/svg_concat(Set this leave as , , unpaid, , )_mat-datepicker-toggle-default-icon ng-star-inserted'))
 
-WebUI.click(findTestObject('LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/td_27'))
+WebUI.click(findTestObject('LeaveModule/Page_HRMS/div_23'))
 
-WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/svg_To_mat-datepicker-toggle-default-icon n_bde48d'))
-
-WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/div_29'))
+WebUI.click(findTestObject('LeaveModule/Page_HRMS/div_24'))
 
 WebUI.setText(findTestObject('Object Repository/LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/textarea_Duration_note'), 
     'HR Manager would like to adjust the request date for employee. Because the employee\'s request date contains continuous off day leave.')
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/button_Save'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/LeaveModule/AdjustFromDateAndToDateByHRManager/Page_HRMS/button_Confirm'))
 
